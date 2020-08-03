@@ -1,4 +1,4 @@
-package _05_replaceSpace_00;
+package _05_替换字符串中的空格;
 
 public class Solution {
 

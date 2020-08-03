@@ -1,4 +1,4 @@
-package _04_findNumberIn2DArray_00;
+package _04_有序二维数组中的搜索;
 
 import java.util.Arrays;
 

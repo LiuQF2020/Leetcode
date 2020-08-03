@@ -1,4 +1,4 @@
-package _06_reversePrint_00;
+package _06_从尾到头打印链表;
 
 public class ListNode {
     int val;

@@ -1,4 +1,4 @@
-package _03_findRepeatNumber_00;
+package _03_数组中找重复的数字;
 
 import java.util.Arrays;
 import java.util.HashSet;

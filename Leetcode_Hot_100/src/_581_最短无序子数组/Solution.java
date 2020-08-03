@@ -1,4 +1,4 @@
-package _581_findUnsortedSubarray;
+package _581_最短无序子数组;
 
 
 /*
@@ -13,8 +13,8 @@ package _581_findUnsortedSubarray;
 解释: 你只需要对 [6, 4, 8, 10, 9] 进行升序排序，那么整个表都会变为升序排序。
 说明 :
 
-输入的数组长度范围在 [1, 10,000]。
-输入的数组可能包含重复元素 ，所以升序的意思是<=。
+输入的数组长度范围在[1, 10,000]。
+输入的数组可能包含重复元素，所以升序的意思是<=。
 
 来源：力扣（LeetCode）
 链接：https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarray

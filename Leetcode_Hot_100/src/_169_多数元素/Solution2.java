@@ -1,4 +1,4 @@
-package _169_majorityElement;
+package _169_多数元素;
 
 import java.util.HashMap;
 import java.util.Map;

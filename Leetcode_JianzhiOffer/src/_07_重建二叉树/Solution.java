@@ -2,7 +2,24 @@ package _07_重建二叉树;
 
 import java.util.HashMap;
 import java.util.Map;
-
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -22,7 +39,8 @@ class Solution {
         for (int i = 0; i < length; i++) {
             indexMap.put(inorder[i], i);
         }
-        return buildTree(preorder, 0, length - 1, inorder, 0, length - 1, indexMap);
+        TreeNode root = buildTree(preorder, 0, length - 1, inorder, 0, length - 1, indexMap);
+        return root;
     }
 
     public TreeNode buildTree(int[] preorder, int preorderStart, int preorderEnd, int[] inorder, int inorderStart, int inorderEnd, Map<Integer, Integer> indexMap) {

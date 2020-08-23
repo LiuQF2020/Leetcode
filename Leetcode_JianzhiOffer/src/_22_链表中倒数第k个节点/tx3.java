@@ -8,13 +8,13 @@ public class Main {
         int T = sc.nextInt();
 
         while(T-- > 0){
-            int n = sc.nextInt();
+            long n = sc.nextLong();
             System.out.println(unknownMethod(n));
 //            System.out.println(rightMethod(n));
         }
     }
-    public static int unknownMethod(int n){
-        int mod = n % 10;
+    public static long unknownMethod(long n){
+        long mod = n % 10;
 
         return getDigitSum(n -  mod - 1) + 1 + mod;
     }
@@ -28,7 +28,7 @@ public class Main {
 //        return maxSum;
 //    }
 
-    public static int getDigitSum(int num){
+    public static int getDigitSum(long num){
         String str = String.valueOf(num);
         int result = 0;
         for(int i = 0; i < str.length(); i++){

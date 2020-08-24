@@ -19,7 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="111" />
+    <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="111">
+      <change afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_26_树的子结构/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/Test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/Test/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_06_从尾到头打印链表/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_06_从尾到头打印链表/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_22_链表中倒数第k个节点/tx3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_22_链表中倒数第k个节点/tx3_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_22_链表中倒数第k个节点/tx5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_22_链表中倒数第k个节点/tx5_1.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +72,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test.Main" />
       <module name="Leetcode_JianzhiOffer" />
@@ -77,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.Test" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_06_从尾到头打印链表.Solution" />
       <module name="Leetcode_JianzhiOffer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test.*" />
+          <option name="PATTERN" value="_06_从尾到头打印链表.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,38 +99,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.Test1" />
-      <module name="Leetcode_JianzhiOffer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.Test2" />
-      <module name="Leetcode_JianzhiOffer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Solution" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Test2" />
-        <item itemvalue="Application.Test1" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -181,42 +179,74 @@
       <screen x="1920" y="0" width="1920" height="1170" />
     </state>
     <state x="2635" y="323" key="#Web_Browsers/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597735113375" />
+    <state x="133" y="15" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598256175277">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="133" y="15" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1598256175277" />
+    <state width="438" height="546" key="DebuggerActiveHint" timestamp="1598264670920">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="438" height="546" key="DebuggerActiveHint/0.0.1366.738@0.0.1366.738" timestamp="1598264670920" />
     <state x="740" y="298" key="FileChooserDialogImpl" timestamp="1597835156075">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
     <state x="2660" y="298" key="FileChooserDialogImpl/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597737928882" />
     <state x="740" y="298" key="FileChooserDialogImpl/0.0.1920.1170@0.0.1920.1170" timestamp="1597835156075" />
-    <state width="1867" height="344" key="GridCell.Tab.0.bottom" timestamp="1597737786784">
-      <screen x="1920" y="0" width="1920" height="1170" />
+    <state width="1313" height="221" key="GridCell.Tab.-1.bottom" timestamp="1598264377245">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state width="1313" height="221" key="GridCell.Tab.-1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1598264377245" />
+    <state width="1313" height="221" key="GridCell.Tab.-1.center" timestamp="1598264377244">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1313" height="221" key="GridCell.Tab.-1.center/0.0.1366.738@0.0.1366.738" timestamp="1598264377244" />
+    <state width="1313" height="221" key="GridCell.Tab.-1.left" timestamp="1598264377244">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1313" height="221" key="GridCell.Tab.-1.left/0.0.1366.738@0.0.1366.738" timestamp="1598264377244" />
+    <state width="1313" height="221" key="GridCell.Tab.-1.right" timestamp="1598264377245">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1313" height="221" key="GridCell.Tab.-1.right/0.0.1366.738@0.0.1366.738" timestamp="1598264377245" />
+    <state width="1313" height="298" key="GridCell.Tab.0.bottom" timestamp="1598264598924">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1313" height="298" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1598264598924" />
     <state width="1867" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597737786784" />
-    <state width="1867" height="344" key="GridCell.Tab.0.center" timestamp="1597737786784">
-      <screen x="1920" y="0" width="1920" height="1170" />
+    <state width="1313" height="298" key="GridCell.Tab.0.center" timestamp="1598264598924">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state width="1313" height="298" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1598264598924" />
     <state width="1867" height="344" key="GridCell.Tab.0.center/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597737786784" />
-    <state width="1867" height="344" key="GridCell.Tab.0.left" timestamp="1597737786784">
-      <screen x="1920" y="0" width="1920" height="1170" />
+    <state width="1313" height="298" key="GridCell.Tab.0.left" timestamp="1598264598924">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state width="1313" height="298" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1598264598924" />
     <state width="1867" height="344" key="GridCell.Tab.0.left/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597737786784" />
-    <state width="1867" height="344" key="GridCell.Tab.0.right" timestamp="1597737786784">
-      <screen x="1920" y="0" width="1920" height="1170" />
+    <state width="1313" height="298" key="GridCell.Tab.0.right" timestamp="1598264599151">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state width="1313" height="298" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1598264599151" />
     <state width="1867" height="344" key="GridCell.Tab.0.right/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597737786784" />
-    <state width="1867" height="344" key="GridCell.Tab.1.bottom" timestamp="1597737786784">
-      <screen x="1920" y="0" width="1920" height="1170" />
+    <state width="1313" height="221" key="GridCell.Tab.1.bottom" timestamp="1598264360394">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state width="1313" height="221" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1598264360394" />
     <state width="1867" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597737786784" />
-    <state width="1867" height="344" key="GridCell.Tab.1.center" timestamp="1597737786784">
-      <screen x="1920" y="0" width="1920" height="1170" />
+    <state width="1313" height="221" key="GridCell.Tab.1.center" timestamp="1598264360394">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state width="1313" height="221" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1598264360394" />
     <state width="1867" height="344" key="GridCell.Tab.1.center/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597737786784" />
-    <state width="1867" height="344" key="GridCell.Tab.1.left" timestamp="1597737786784">
-      <screen x="1920" y="0" width="1920" height="1170" />
+    <state width="1313" height="221" key="GridCell.Tab.1.left" timestamp="1598264360394">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state width="1313" height="221" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1598264360394" />
     <state width="1867" height="344" key="GridCell.Tab.1.left/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597737786784" />
-    <state width="1867" height="344" key="GridCell.Tab.1.right" timestamp="1597737786784">
-      <screen x="1920" y="0" width="1920" height="1170" />
+    <state width="1313" height="221" key="GridCell.Tab.1.right" timestamp="1598264360394">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state width="1313" height="221" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1598264360394" />
     <state width="1867" height="344" key="GridCell.Tab.1.right/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597737786784" />
     <state x="2503" y="287" width="862" height="595" key="NewModule_or_Project.wizard" timestamp="1597737635609">
       <screen x="1920" y="0" width="1920" height="1170" />
@@ -253,9 +283,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Leetcode_JianzhiOffer/src/Test/Main.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="4" />
+          <url>file://$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_06_从尾到头打印链表/Solution.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_06_从尾到头打印链表/Solution.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

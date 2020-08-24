@@ -1,5 +1,6 @@
 package _06_从尾到头打印链表;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Stack;
 
@@ -27,17 +28,36 @@ class ListNode {
 class Solution {
     public int[] reversePrint(ListNode head) {
         Stack<ListNode> stack = new Stack<>();
-        ListNode temp = head;
-        while (temp != null) {
-            stack.push(temp);
-            temp = temp.next;
+        // ListNode dum = new ListNode(0), cur = dum;
+        while (head != null) {
+            stack.push(head);
+            head = head.next;
         }
         int size = stack.size();
-        int[] print = new int[size];
+        int[] res = new int[size];
         for (int i = 0; i < size; i++) {
-            print[i] = stack.pop().val;
+            res[i] = stack.pop().val;
         }
-        return print;
+        return res;
+    }
+
+    ArrayList<Integer> tmp = new ArrayList<>();
+    public int[] reversePrint2(ListNode head) {
+        recur(head);
+        int[] res = new int[tmp.size()];
+        for (int i = 0; i < res.length; i++) {
+            res[i] = tmp.get(i);
+        }
+        return res;
+    }
+
+    void recur(ListNode head) {
+        if (head == null) {
+            return;
+        }
+        recur(head.next);
+        // 这里因为递归是压栈再出栈，所以tmp是先add 18，即先进后出
+       tmp.add(head.val);
     }
 
     public void printListNode(ListNode head) {
@@ -54,7 +74,7 @@ class Solution {
 //        ListNode t = head.next;
         ListNode t = head;
         for(int i=2;i<10;i++) {//创建一个简单的链表{1,2,3,4,5,...,9}
-            t.next = new ListNode(i);
+            t.next = new ListNode(i*2);
             t = t.next;
         }
 
@@ -62,7 +82,9 @@ class Solution {
         Solution sl = new Solution();
         sl.printListNode(head);
 
-        int[] arr = sl.reversePrint(head);//调用反转链表方
+//        int[] arr = sl.reversePrint(head);//调用反转链表方
+
+        int[] arr = sl.reversePrint2(head);
         System.out.println(Arrays.toString(arr));
     }
 

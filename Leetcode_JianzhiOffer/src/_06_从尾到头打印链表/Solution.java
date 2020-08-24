@@ -7,7 +7,7 @@ import java.util.Stack;
 class ListNode {
     int val;
     ListNode next;
-    ListNode(int x) {
+    public ListNode(int x) {
         val = x;
     }
 
@@ -25,7 +25,7 @@ class ListNode {
     }
 }
 
-class Solution {
+public class Solution {
     public int[] reversePrint(ListNode head) {
         Stack<ListNode> stack = new Stack<>();
         // ListNode dum = new ListNode(0), cur = dum;

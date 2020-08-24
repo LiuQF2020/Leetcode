@@ -19,15 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="111">
-      <change afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_26_树的子结构/Solution.java" afterDir="false" />
+    <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/Test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/Test/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_06_从尾到头打印链表/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_06_从尾到头打印链表/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_22_链表中倒数第k个节点/tx3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_22_链表中倒数第k个节点/tx3_1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_22_链表中倒数第k个节点/tx5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_22_链表中倒数第k个节点/tx5_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode_JianzhiOffer/Test/Main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode_JianzhiOffer/Test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode_JianzhiOffer/Test/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode_JianzhiOffer/_06_从尾到头打印链表/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode_JianzhiOffer/_06_从尾到头打印链表/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode_JianzhiOffer/_06_从尾到头打印链表/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode_JianzhiOffer/_06_从尾到头打印链表/Solution.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +67,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RunManager" selected="Application.Solution">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -148,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598187688773</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="这里因为递归是压栈再出栈，所以tmp是先add 18，即先进后出">
+      <created>1598264941658</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598264941658</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,7 +172,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="111" />
-    <option name="LAST_COMMIT_MESSAGE" value="111" />
+    <MESSAGE value="这里因为递归是压栈再出栈，所以tmp是先add 18，即先进后出" />
+    <option name="LAST_COMMIT_MESSAGE" value="这里因为递归是压栈再出栈，所以tmp是先add 18，即先进后出" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2568" y="368" key="#Notifications" timestamp="1597722229298">
@@ -183,6 +188,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="133" y="15" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1598256175277" />
+    <state x="168" y="0" key="CommitChangelistDialog2" timestamp="1598264938197">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="168" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1598264938197" />
     <state width="438" height="546" key="DebuggerActiveHint" timestamp="1598264670920">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -208,25 +217,25 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1313" height="221" key="GridCell.Tab.-1.right/0.0.1366.738@0.0.1366.738" timestamp="1598264377245" />
-    <state width="1313" height="298" key="GridCell.Tab.0.bottom" timestamp="1598264598924">
+    <state width="1313" height="202" key="GridCell.Tab.0.bottom" timestamp="1598264739357">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1313" height="298" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1598264598924" />
+    <state width="1313" height="202" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1598264739357" />
     <state width="1867" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597737786784" />
-    <state width="1313" height="298" key="GridCell.Tab.0.center" timestamp="1598264598924">
+    <state width="1313" height="202" key="GridCell.Tab.0.center" timestamp="1598264739357">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1313" height="298" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1598264598924" />
+    <state width="1313" height="202" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1598264739357" />
     <state width="1867" height="344" key="GridCell.Tab.0.center/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597737786784" />
-    <state width="1313" height="298" key="GridCell.Tab.0.left" timestamp="1598264598924">
+    <state width="1313" height="202" key="GridCell.Tab.0.left" timestamp="1598264739357">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1313" height="298" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1598264598924" />
+    <state width="1313" height="202" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1598264739357" />
     <state width="1867" height="344" key="GridCell.Tab.0.left/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597737786784" />
-    <state width="1313" height="298" key="GridCell.Tab.0.right" timestamp="1598264599151">
+    <state width="1313" height="202" key="GridCell.Tab.0.right" timestamp="1598264739552">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1313" height="298" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1598264599151" />
+    <state width="1313" height="202" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1598264739552" />
     <state width="1867" height="344" key="GridCell.Tab.0.right/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597737786784" />
     <state width="1313" height="221" key="GridCell.Tab.1.bottom" timestamp="1598264360394">
       <screen x="0" y="0" width="1366" height="738" />
@@ -252,14 +261,16 @@
       <screen x="1920" y="0" width="1920" height="1170" />
     </state>
     <state x="2503" y="287" width="862" height="595" key="NewModule_or_Project.wizard/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597737635609" />
-    <state x="2264" y="112" key="SettingsEditor" timestamp="1597735084581">
-      <screen x="1920" y="0" width="1920" height="1170" />
+    <state x="134" y="0" key="SettingsEditor" timestamp="1598265035384">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state x="134" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1598265035384" />
     <state x="344" y="112" key="SettingsEditor/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1597734912894" />
     <state x="2264" y="112" key="SettingsEditor/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597735084581" />
-    <state x="552" y="318" key="Vcs.Push.Dialog.v2" timestamp="1598187766555">
-      <screen x="0" y="0" width="1920" height="1170" />
+    <state x="350" y="75" key="Vcs.Push.Dialog.v2" timestamp="1598264945423">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state x="350" y="75" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1598264945423" />
     <state x="2472" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597574444916" />
     <state x="552" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170@0.0.1920.1170" timestamp="1598187766555" />
     <state x="2674" y="497" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597574441117">
@@ -278,6 +289,10 @@
       <screen x="1920" y="0" width="1920" height="1170" />
     </state>
     <state x="2597" y="150" width="781" height="629" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597722728965" />
+    <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1598264885653">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1598264885653" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -289,8 +304,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_06_从尾到头打印链表/Solution.java</url>
-          <line>58</line>
-          <option name="timeStamp" value="7" />
+          <line>57</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

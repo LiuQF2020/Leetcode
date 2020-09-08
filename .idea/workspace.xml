@@ -19,18 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="111">
-      <change afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/Test/Collection_Map/Map/Learn_HashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/Test/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/Test/Zuoshen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/Test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/Test/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/Test/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/Test/Test1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/Test/Test2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_45_把数组排成最小的数/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_45_把数组排成最小的数/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_65_不用加减乘除做加法/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_65_不用加减乘除做加法/Solution.java" afterDir="false" />
-    </list>
+    <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="手撕代码" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,6 +56,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowFavorites.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -185,6 +175,7 @@
       <workItem from="1598697866947" duration="1355000" />
       <workItem from="1598749643872" duration="6326000" />
       <workItem from="1599273700105" duration="9613000" />
+      <workItem from="1599554839476" duration="301000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1598187688773</created>
@@ -193,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598187688773</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="手撕代码">
+      <created>1599555138149</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599555138149</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,7 +212,9 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="111" />
-    <option name="LAST_COMMIT_MESSAGE" value="111" />
+    <MESSAGE value="寿司代码" />
+    <MESSAGE value="手撕代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="手撕代码" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2568" y="368" key="#Notifications" timestamp="1597722229298">
@@ -280,10 +280,10 @@
     <state x="344" y="112" key="SettingsEditor/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1597734912894" />
     <state x="2264" y="112" key="SettingsEditor/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597735084581" />
     <state x="370" y="95" key="SettingsEditor/0.0.1920.1170@0.0.1920.1170" timestamp="1599292316827" />
-    <state x="552" y="318" key="Vcs.Push.Dialog.v2" timestamp="1598187766555">
-      <screen x="0" y="0" width="1920" height="1170" />
+    <state x="2472" y="318" key="Vcs.Push.Dialog.v2" timestamp="1599555143781">
+      <screen x="1920" y="0" width="1920" height="1170" />
     </state>
-    <state x="2472" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597574444916" />
+    <state x="2472" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599555143781" />
     <state x="552" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170@0.0.1920.1170" timestamp="1598187766555" />
     <state x="2674" y="497" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597574441117">
       <screen x="1920" y="0" width="1920" height="1170" />
@@ -294,10 +294,10 @@
     </state>
     <state x="2582" y="316" width="717" height="650" key="find.popup/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1598583352512" />
     <state x="662" y="316" width="717" height="650" key="find.popup/0.0.1920.1170@0.0.1920.1170" timestamp="1599275725796" />
-    <state x="2078" y="117" key="new project wizard" timestamp="1597738107152">
+    <state x="2078" y="117" key="new project wizard" timestamp="1599555028847">
       <screen x="1920" y="0" width="1920" height="1170" />
     </state>
-    <state x="2078" y="117" key="new project wizard/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597738107152" />
+    <state x="2078" y="117" key="new project wizard/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599555028847" />
     <state x="2597" y="150" width="781" height="629" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1597722728965">
       <screen x="1920" y="0" width="1920" height="1170" />
     </state>

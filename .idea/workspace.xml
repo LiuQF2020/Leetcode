@@ -19,10 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="手撕代码">
-      <change afterPath="$PROJECT_DIR$/Scratch_Code/src/_1_二分查找/BinarySearchWithRecursion.java" afterDir="false" />
+    <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="二分查找">
+      <change afterPath="$PROJECT_DIR$/Scratch_Code/src/_01_二分查找/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scratch_Code/src/_01_二分查找/BinarySearchWithRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scratch_Code/src/_02_数组问题/_1_找出数组中出现次数大于数组长度一半的数/FindMajority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scratch_Code/src/_02_数组问题/_2_找出数组中出现次数大于数组长度NofK的数/FindMajorityK.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scratch_Code/src/_1_二分查找/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/Scratch_Code/src/_1_二分查找/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scratch_Code/src/_1_二分查找/BinarySearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scratch_Code/src/_1_二分查找/BinarySearchWithRecursion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scratch_Code/_1_二分查找/BinarySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scratch_Code/_1_二分查找/BinarySearchWithRecursion.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +76,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.BinarySearchWithRecursion">
+  <component name="RunManager" selected="Application.FindMajority">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_1_二分查找.BinarySearch" />
       <module name="Scratch_Code" />
@@ -90,6 +96,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="_1_二分查找.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindMajority" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_02_数组问题._1_找出数组中出现次数大于数组长度一半的数.FindMajority" />
+      <module name="Scratch_Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_02_数组问题._1_找出数组中出现次数大于数组长度一半的数.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,19 +142,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.Test2" />
-      <module name="Leetcode_JianzhiOffer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -151,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindMajority" />
         <item itemvalue="Application.BinarySearchWithRecursion" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Test2" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +188,7 @@
       <workItem from="1598749643872" duration="6326000" />
       <workItem from="1599273700105" duration="9613000" />
       <workItem from="1599554839476" duration="1421000" />
-      <workItem from="1599556267305" duration="1908000" />
+      <workItem from="1599556267305" duration="8582000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1598187688773</created>
@@ -205,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599555210571</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="二分查找">
+      <created>1599561221492</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599561221492</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +241,8 @@
     <MESSAGE value="111" />
     <MESSAGE value="寿司代码" />
     <MESSAGE value="手撕代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="手撕代码" />
+    <MESSAGE value="二分查找" />
+    <option name="LAST_COMMIT_MESSAGE" value="二分查找" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2568" y="368" key="#Notifications" timestamp="1597722229298">
@@ -248,25 +262,25 @@
     </state>
     <state x="2660" y="298" key="FileChooserDialogImpl/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597737928882" />
     <state x="740" y="298" key="FileChooserDialogImpl/0.0.1920.1170@0.0.1920.1170" timestamp="1598517500758" />
-    <state width="1867" height="210" key="GridCell.Tab.0.bottom" timestamp="1599556523733">
+    <state width="1867" height="210" key="GridCell.Tab.0.bottom" timestamp="1599570070063">
       <screen x="1920" y="0" width="1920" height="1170" />
     </state>
-    <state width="1867" height="210" key="GridCell.Tab.0.bottom/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599556523733" />
+    <state width="1867" height="210" key="GridCell.Tab.0.bottom/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599570070063" />
     <state width="1867" height="481" key="GridCell.Tab.0.bottom/0.0.1920.1170@0.0.1920.1170" timestamp="1598961311838" />
-    <state width="1867" height="210" key="GridCell.Tab.0.center" timestamp="1599556523733">
+    <state width="1867" height="210" key="GridCell.Tab.0.center" timestamp="1599570070063">
       <screen x="1920" y="0" width="1920" height="1170" />
     </state>
-    <state width="1867" height="210" key="GridCell.Tab.0.center/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599556523733" />
+    <state width="1867" height="210" key="GridCell.Tab.0.center/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599570070063" />
     <state width="1867" height="481" key="GridCell.Tab.0.center/0.0.1920.1170@0.0.1920.1170" timestamp="1598961311838" />
-    <state width="1867" height="210" key="GridCell.Tab.0.left" timestamp="1599556523733">
+    <state width="1867" height="210" key="GridCell.Tab.0.left" timestamp="1599570070063">
       <screen x="1920" y="0" width="1920" height="1170" />
     </state>
-    <state width="1867" height="210" key="GridCell.Tab.0.left/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599556523733" />
+    <state width="1867" height="210" key="GridCell.Tab.0.left/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599570070063" />
     <state width="1867" height="481" key="GridCell.Tab.0.left/0.0.1920.1170@0.0.1920.1170" timestamp="1598961311837" />
-    <state width="1867" height="210" key="GridCell.Tab.0.right" timestamp="1599556523733">
+    <state width="1867" height="210" key="GridCell.Tab.0.right" timestamp="1599570070063">
       <screen x="1920" y="0" width="1920" height="1170" />
     </state>
-    <state width="1867" height="210" key="GridCell.Tab.0.right/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599556523733" />
+    <state width="1867" height="210" key="GridCell.Tab.0.right/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599570070063" />
     <state width="1867" height="481" key="GridCell.Tab.0.right/0.0.1920.1170@0.0.1920.1170" timestamp="1598961311838" />
     <state width="1867" height="344" key="GridCell.Tab.1.bottom" timestamp="1597737786784">
       <screen x="1920" y="0" width="1920" height="1170" />
@@ -294,10 +308,10 @@
     <state x="344" y="112" key="SettingsEditor/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1597734912894" />
     <state x="2264" y="112" key="SettingsEditor/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597735084581" />
     <state x="370" y="95" key="SettingsEditor/0.0.1920.1170@0.0.1920.1170" timestamp="1599292316827" />
-    <state x="2472" y="318" key="Vcs.Push.Dialog.v2" timestamp="1599555214137">
+    <state x="2472" y="318" key="Vcs.Push.Dialog.v2" timestamp="1599561295475">
       <screen x="1920" y="0" width="1920" height="1170" />
     </state>
-    <state x="2472" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599555214137" />
+    <state x="2472" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599561295475" />
     <state x="552" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170@0.0.1920.1170" timestamp="1598187766555" />
     <state x="2674" y="497" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597574441117">
       <screen x="1920" y="0" width="1920" height="1170" />
@@ -316,9 +330,9 @@
       <screen x="1920" y="0" width="1920" height="1170" />
     </state>
     <state x="2597" y="150" width="781" height="629" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597722728965" />
-    <state x="2452" y="269" key="run.anything.popup" timestamp="1599560918296">
+    <state x="2452" y="269" key="run.anything.popup" timestamp="1599569427981">
       <screen x="1920" y="0" width="1920" height="1170" />
     </state>
-    <state x="2452" y="269" key="run.anything.popup/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599560918296" />
+    <state x="2452" y="269" key="run.anything.popup/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599569427981" />
   </component>
 </project>

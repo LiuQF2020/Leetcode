@@ -1,4 +1,4 @@
-package _1_二分查找;
+package _01_二分查找;
 
 public class BinarySearchWithRecursion {
 
@@ -12,25 +12,23 @@ public class BinarySearchWithRecursion {
         if (arr.length < 1) {
             return -1;
         }
-
         int index = binarySearch(arr, key, 0, arr.length - 1);
         return index;
     }
 
     public static int binarySearch(int[] arr, int key, int start, int end) {
         int mid = start + (end - start) / 2;
+
+        // 递归终止条件
         if (arr[mid] == key) {
             return mid;
-        }
-
-        if (start >= end) {
-            return -1;
         } else if (arr[mid] > key) {
             return binarySearch(arr, key, start, mid - 1);
         } else if (arr[mid] < key) {
             return binarySearch(arr, key, mid + 1, end);
+        } else {
+            return -1;
         }
-        return -1;
     }
 
     public static void main(String[] args) {

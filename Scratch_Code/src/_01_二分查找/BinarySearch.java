@@ -1,4 +1,4 @@
-package _1_二分查找;
+package _01_二分查找;
 
 public class BinarySearch {
 

@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="反转单向链表理解">
-      <change beforePath="$PROJECT_DIR$/Scratch_Code/src/_06_链表/_1_反转链表/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Scratch_Code/src/_06_链表/_1_反转链表/ReverseLinkedList.java" afterDir="false" />
+    <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="反转双向链表未理解">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -278,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599656991096</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="反转双向链表未理解">
+      <created>1599657871834</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1599657871834</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,7 +316,8 @@
     <MESSAGE value="两个栈实现队列" />
     <MESSAGE value="反转单向链表" />
     <MESSAGE value="反转单向链表理解" />
-    <option name="LAST_COMMIT_MESSAGE" value="反转单向链表理解" />
+    <MESSAGE value="反转双向链表未理解" />
+    <option name="LAST_COMMIT_MESSAGE" value="反转双向链表未理解" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2568" y="368" key="#Notifications" timestamp="1597722229298">

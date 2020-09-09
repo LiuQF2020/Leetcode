@@ -6,30 +6,29 @@ import java.util.HashSet;
 public class FindMajorityK {
 
     public static void printKMajor(int[] arr, int k){
-
         int n = arr.length, m = n / k;
         HashMap<Integer, Integer> map = new HashMap<>();
         HashSet<Integer> set = new HashSet<>();
-        for (int j : arr) {
-            if (!map.containsKey(j)) {
-                map.put(j, 1);
+
+        for (int num : arr) {
+            if (!map.containsKey(num)) {
+                map.put(num, 1);
             } else {
-                map.put(j, map.get(j) + 1);
+                map.put(num, map.get(num) + 1);
             }
-            if (map.get(j) > m) {
-                set.add(j);
+
+            if(map.get(num) > m) {
+                set.add(num);
             }
         }
-        if(set.isEmpty()) {
-            System.out.println(-1);
-        }
-        for (int s : set) {
-            System.out.println(s + " ");
+
+        for (int mem : set) {
+            System.out.print(mem + " ");
         }
     }
 
     public static void main(String[] args) {
-        int[] arr = {1, 7, 2, 2, 2, 4, 1, 1, 0, 2, 3};
-        printKMajor(arr, 3);
+        int[] arr = {1, 2, 3, 1, 2, 3, 4};
+        printKMajor(arr, 7);
     }
 }

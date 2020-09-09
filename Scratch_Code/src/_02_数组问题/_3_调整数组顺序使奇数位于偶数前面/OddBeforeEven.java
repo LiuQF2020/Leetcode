@@ -35,6 +35,7 @@ public class OddBeforeEven {
         使得所有的奇数位于数组的前半部分，所有的偶数位于数组的后半部分，
         并保证奇数和奇数，偶数和偶数之间的相对位置不变。
          */
+        return new int[]{1};
     }
 
     public static void main(String[] args) {

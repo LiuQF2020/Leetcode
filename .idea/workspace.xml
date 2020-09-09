@@ -19,12 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="majorK">
-      <change afterPath="$PROJECT_DIR$/Scratch_Code/src/_02_数组问题/_2_找出数组中出现次数大于数组长度NofK的数/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scratch_Code/src/_02_数组问题/_2_找出数组中出现次数大于数组长度NofK的数/FindMajorityK.java" beforeDir="false" afterPath="$PROJECT_DIR$/Scratch_Code/src/_02_数组问题/_2_找出数组中出现次数大于数组长度NofK的数/FindMajorityK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scratch_Code/_02_数组问题/_2_找出数组中出现次数大于数组长度NofK的数/FindMajorityK.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scratch_Code/_02_数组问题/_2_找出数组中出现次数大于数组长度NofK的数/FindMajorityK.class" afterDir="false" />
-    </list>
+    <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="sort" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -239,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599612486853</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="sort">
+      <created>1599625216896</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1599625216896</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +267,8 @@
     <MESSAGE value="二分查找" />
     <MESSAGE value="k" />
     <MESSAGE value="majorK" />
-    <option name="LAST_COMMIT_MESSAGE" value="majorK" />
+    <MESSAGE value="sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="sort" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2568" y="368" key="#Notifications" timestamp="1597722229298">
@@ -280,6 +283,10 @@
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
     <state x="637" y="309" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1170@0.0.1920.1170" timestamp="1598529923854" />
+    <state x="294" y="132" key="DiffContextDialog" timestamp="1599625127485">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="294" y="132" key="DiffContextDialog/0.0.1536.834@0.0.1536.834" timestamp="1599625127485" />
     <state x="740" y="298" key="FileChooserDialogImpl" timestamp="1598517500758">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
@@ -331,14 +338,16 @@
     <state x="344" y="112" key="SettingsEditor/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1597734912894" />
     <state x="2264" y="112" key="SettingsEditor/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597735084581" />
     <state x="370" y="95" key="SettingsEditor/0.0.1920.1170@0.0.1920.1170" timestamp="1599292316827" />
-    <state x="2472" y="318" key="Vcs.Push.Dialog.v2" timestamp="1599612490711">
-      <screen x="1920" y="0" width="1920" height="1170" />
+    <state x="442" y="227" width="970" height="533" key="Vcs.Push.Dialog.v2" timestamp="1599625223086">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
+    <state x="442" y="227" width="970" height="533" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1599625223086" />
     <state x="2472" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599612490711" />
     <state x="552" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170@0.0.1920.1170" timestamp="1598187766555" />
-    <state x="2674" y="497" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597574441117">
-      <screen x="1920" y="0" width="1920" height="1170" />
+    <state x="603" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599625161116">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
+    <state x="603" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1599625161116" />
     <state x="2674" y="497" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597574441117" />
     <state x="662" y="316" width="717" height="650" key="find.popup" timestamp="1599275725796">
       <screen x="0" y="0" width="1920" height="1170" />

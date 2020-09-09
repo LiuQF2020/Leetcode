@@ -19,11 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="二分查找">
-      <change afterPath="$PROJECT_DIR$/Scratch_Code/src/_02_数组问题/_2_找出数组中出现次数大于数组长度NofK的数/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_8_22_18__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_8_22_18__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_8_22_18__Default_Changelist_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_8_22_18__Default_Changelist_1.xml" afterDir="false" />
+    <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="majorK">
+      <change afterPath="$PROJECT_DIR$/Scratch_Code/src/_02_数组问题/_2_找出数组中出现次数大于数组长度NofK的数/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scratch_Code/src/_02_数组问题/_2_找出数组中出现次数大于数组长度NofK的数/FindMajorityK.java" beforeDir="false" afterPath="$PROJECT_DIR$/Scratch_Code/src/_02_数组问题/_2_找出数组中出现次数大于数组长度NofK的数/FindMajorityK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scratch_Code/_02_数组问题/_2_找出数组中出现次数大于数组长度NofK的数/FindMajorityK.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scratch_Code/_02_数组问题/_2_找出数组中出现次数大于数组长度NofK的数/FindMajorityK.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +71,12 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.FindMajority">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Learn\Coding\Structure_Algorithm\codes\Leetcode\Scratch_Code\src\_02_数组问题\_2_找出数组中出现次数大于数组长度NofK的数" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.FindMajorityK">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_1_二分查找.BinarySearch" />
       <module name="Scratch_Code" />
@@ -111,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.Main" />
-      <module name="Leetcode_JianzhiOffer" />
+    <configuration name="FindMajorityK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_02_数组问题._2_找出数组中出现次数大于数组长度NofK的数.FindMajorityK" />
+      <module name="Scratch_Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test.*" />
+          <option name="PATTERN" value="_02_数组问题._2_找出数组中出现次数大于数组长度NofK的数.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,8 +129,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.Solution" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.Main" />
       <module name="Leetcode_JianzhiOffer" />
       <extension name="coverage">
         <pattern>
@@ -150,20 +155,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.BinarySearch" />
-      <item itemvalue="Application.BinarySearchWithRecursion" />
-      <item itemvalue="Application.FindMajority" />
-      <item itemvalue="Application.Main" />
-    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindMajorityK" />
         <item itemvalue="Application.FindMajority" />
         <item itemvalue="Application.BinarySearchWithRecursion" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -190,8 +188,7 @@
       <workItem from="1598749643872" duration="6326000" />
       <workItem from="1599273700105" duration="9613000" />
       <workItem from="1599554839476" duration="1421000" />
-      <workItem from="1599556267305" duration="8582000" />
-      <workItem from="1599624195318" duration="748000" />
+      <workItem from="1599556267305" duration="10979000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1598187688773</created>
@@ -221,7 +218,21 @@
       <option name="project" value="LOCAL" />
       <updated>1599561221492</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="k">
+      <created>1599572941921</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599572941921</updated>
+    </task>
+    <task id="LOCAL-00006" summary="majorK">
+      <created>1599612486853</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1599612486853</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,7 +256,9 @@
     <MESSAGE value="寿司代码" />
     <MESSAGE value="手撕代码" />
     <MESSAGE value="二分查找" />
-    <option name="LAST_COMMIT_MESSAGE" value="二分查找" />
+    <MESSAGE value="k" />
+    <MESSAGE value="majorK" />
+    <option name="LAST_COMMIT_MESSAGE" value="majorK" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2568" y="368" key="#Notifications" timestamp="1597722229298">
@@ -265,25 +278,25 @@
     </state>
     <state x="2660" y="298" key="FileChooserDialogImpl/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597737928882" />
     <state x="740" y="298" key="FileChooserDialogImpl/0.0.1920.1170@0.0.1920.1170" timestamp="1598517500758" />
-    <state width="1867" height="210" key="GridCell.Tab.0.bottom" timestamp="1599570070063">
+    <state width="1867" height="210" key="GridCell.Tab.0.bottom" timestamp="1599612670849">
       <screen x="1920" y="0" width="1920" height="1170" />
     </state>
-    <state width="1867" height="210" key="GridCell.Tab.0.bottom/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599570070063" />
+    <state width="1867" height="210" key="GridCell.Tab.0.bottom/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599612670849" />
     <state width="1867" height="481" key="GridCell.Tab.0.bottom/0.0.1920.1170@0.0.1920.1170" timestamp="1598961311838" />
-    <state width="1867" height="210" key="GridCell.Tab.0.center" timestamp="1599570070063">
+    <state width="1867" height="210" key="GridCell.Tab.0.center" timestamp="1599612670849">
       <screen x="1920" y="0" width="1920" height="1170" />
     </state>
-    <state width="1867" height="210" key="GridCell.Tab.0.center/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599570070063" />
+    <state width="1867" height="210" key="GridCell.Tab.0.center/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599612670849" />
     <state width="1867" height="481" key="GridCell.Tab.0.center/0.0.1920.1170@0.0.1920.1170" timestamp="1598961311838" />
-    <state width="1867" height="210" key="GridCell.Tab.0.left" timestamp="1599570070063">
+    <state width="1867" height="210" key="GridCell.Tab.0.left" timestamp="1599612670849">
       <screen x="1920" y="0" width="1920" height="1170" />
     </state>
-    <state width="1867" height="210" key="GridCell.Tab.0.left/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599570070063" />
+    <state width="1867" height="210" key="GridCell.Tab.0.left/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599612670849" />
     <state width="1867" height="481" key="GridCell.Tab.0.left/0.0.1920.1170@0.0.1920.1170" timestamp="1598961311837" />
-    <state width="1867" height="210" key="GridCell.Tab.0.right" timestamp="1599570070063">
+    <state width="1867" height="210" key="GridCell.Tab.0.right" timestamp="1599612670849">
       <screen x="1920" y="0" width="1920" height="1170" />
     </state>
-    <state width="1867" height="210" key="GridCell.Tab.0.right/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599570070063" />
+    <state width="1867" height="210" key="GridCell.Tab.0.right/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599612670849" />
     <state width="1867" height="481" key="GridCell.Tab.0.right/0.0.1920.1170@0.0.1920.1170" timestamp="1598961311838" />
     <state width="1867" height="344" key="GridCell.Tab.1.bottom" timestamp="1597737786784">
       <screen x="1920" y="0" width="1920" height="1170" />
@@ -311,10 +324,10 @@
     <state x="344" y="112" key="SettingsEditor/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1597734912894" />
     <state x="2264" y="112" key="SettingsEditor/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597735084581" />
     <state x="370" y="95" key="SettingsEditor/0.0.1920.1170@0.0.1920.1170" timestamp="1599292316827" />
-    <state x="2472" y="318" key="Vcs.Push.Dialog.v2" timestamp="1599561295475">
+    <state x="2472" y="318" key="Vcs.Push.Dialog.v2" timestamp="1599612490711">
       <screen x="1920" y="0" width="1920" height="1170" />
     </state>
-    <state x="2472" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599561295475" />
+    <state x="2472" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599612490711" />
     <state x="552" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170@0.0.1920.1170" timestamp="1598187766555" />
     <state x="2674" y="497" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597574441117">
       <screen x="1920" y="0" width="1920" height="1170" />

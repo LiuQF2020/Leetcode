@@ -9,7 +9,9 @@ public class ReverseLinkedList {
             this.value = value;
         }
     }
-
+    /*
+    反转单向链表：
+     */
     public static Node reverseLinkedList(Node head) {
         if (head == null) {
             return null;
@@ -32,5 +34,38 @@ public class ReverseLinkedList {
             cur = tmp;
         }
         return pre;
+    }
+
+
+    public static class DoubleNode {
+        int value;
+        DoubleNode pre;  // 指向前一个节点
+        DoubleNode next;  // 指向后一个节点
+
+        public DoubleNode(int value) {
+            this.value = value;
+        }
+    }
+
+    /*
+    反转双向链表：
+    还不太理解。。。
+     */
+    public static DoubleNode reverseDoubleLinkedList(DoubleNode head) {
+        if (head == null) {
+            return null;
+        }
+
+        DoubleNode tmp = null;
+        DoubleNode res = null;
+
+        while (head != null) {
+            tmp = head.next;
+            head.next = head.pre;
+            head.pre = tmp;
+            res = head;
+            head = tmp;
+        }
+        return res;
     }
 }

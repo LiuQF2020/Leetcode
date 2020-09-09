@@ -20,15 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="二分查找">
-      <change afterPath="$PROJECT_DIR$/Scratch_Code/src/_01_二分查找/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scratch_Code/src/_01_二分查找/BinarySearchWithRecursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scratch_Code/src/_02_数组问题/_1_找出数组中出现次数大于数组长度一半的数/FindMajority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scratch_Code/src/_02_数组问题/_2_找出数组中出现次数大于数组长度NofK的数/FindMajorityK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scratch_Code/src/_02_数组问题/_2_找出数组中出现次数大于数组长度NofK的数/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_8_22_18__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_8_22_18__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_8_22_18__Default_Changelist_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_8_22_18__Default_Changelist_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scratch_Code/src/_1_二分查找/BinarySearch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scratch_Code/src/_1_二分查找/BinarySearchWithRecursion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scratch_Code/_1_二分查找/BinarySearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scratch_Code/_1_二分查找/BinarySearchWithRecursion.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,6 +150,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.BinarySearch" />
+      <item itemvalue="Application.BinarySearchWithRecursion" />
+      <item itemvalue="Application.FindMajority" />
+      <item itemvalue="Application.Main" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.FindMajority" />
@@ -189,6 +191,7 @@
       <workItem from="1599273700105" duration="9613000" />
       <workItem from="1599554839476" duration="1421000" />
       <workItem from="1599556267305" duration="8582000" />
+      <workItem from="1599624195318" duration="748000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1598187688773</created>

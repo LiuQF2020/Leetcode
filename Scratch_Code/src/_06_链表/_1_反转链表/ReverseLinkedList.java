@@ -19,7 +19,14 @@ public class ReverseLinkedList {
         Node tmp = null;
 
         while (cur!=null) {
+            // 也可以用“赋值”语句的理解方法来理解下麦呢两句话
+
+            // cur.next在等号右，表示tmp记录下cur的下一个位置；
+            // 或者说将cur的下一个位置赋值给tmp；
+            // 亦即tmp移动到cur的下一个位置。
             tmp = cur.next;
+
+            // cur.next在等号左，表示cur指向pre；
             cur.next = pre;
             pre = cur;
             cur = tmp;

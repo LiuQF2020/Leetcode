@@ -19,22 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="两个队列实现栈">
-      <change afterPath="$PROJECT_DIR$/Scratch_Code/src/_04_栈/_1_仅用队列实现栈/TwoQueuesStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scratch_Code/src/_05_队列/_1_仅用栈实现队列/TwoStacksQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Scratch_Code/_00_排序算法/_1_冒泡排序/BubbleSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Scratch_Code/_00_排序算法/_2_插入排序/InsertionSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Scratch_Code/_00_排序算法/_3_选择排序/SelectionSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Scratch_Code/_00_排序算法/_4_归并排序/MergeSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Scratch_Code/_00_排序算法/_5_快速排序/QuickSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Scratch_Code/_00_排序算法/_6_堆排序/HeapSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Scratch_Code/_02_数组问题/_2_找出数组中出现次数大于数组长度NofK的数/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Scratch_Code/_04_栈/_1_仅用队列实现栈/TwoQueuesStack.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Scratch_Code/_05_队列/_1_仅用栈实现队列/TwoStacksQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scratch_Code/src/_02_数组问题/_3_调整数组顺序使奇数位于偶数前面/OddBeforeEven.java" beforeDir="false" afterPath="$PROJECT_DIR$/Scratch_Code/src/_02_数组问题/_3_调整数组顺序使奇数位于偶数前面/OddBeforeEven.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scratch_Code/_02_数组问题/_3_调整数组顺序使奇数位于偶数前面/OddBeforeEven.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scratch_Code/_02_数组问题/_3_调整数组顺序使奇数位于偶数前面/OddBeforeEven.class" afterDir="false" />
-    </list>
+    <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="两个队列实现栈" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -242,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599612486853</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="两个队列实现栈">
+      <created>1599638357981</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1599638357981</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

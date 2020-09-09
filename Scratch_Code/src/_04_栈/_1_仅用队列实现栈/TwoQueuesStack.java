@@ -4,6 +4,10 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
+ * 思路：
+ *  1） 一个队列加入元素，弹出元素时，需要把队列中的 元素放到另外一个队列中，删除最后一个元素
+ *  2） 两个队列始终保持只有一个队列是有数据的
+ *
  * 1、开辟两个队列：
  *   1个队列为data队列，加入数据时只push进入data队列；
  *   另一个队列为help队列，取数据时只从help队列pop；

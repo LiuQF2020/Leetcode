@@ -19,13 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="二叉树">
-      <change afterPath="$PROJECT_DIR$/Scratch_Code/src/_07_树/_2_前中后序的非递归实现/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scratch_Code/src/_07_树/_1_前中后序的递归实现/OrderWithRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/Scratch_Code/src/_07_树/_1_前中后序的递归实现/OrderWithRecursion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scratch_Code/src/_07_树/_2_前中后序的非递归实现/OrderNoRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/Scratch_Code/src/_07_树/_2_前中后序的非递归实现/OrderNoRecursion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scratch_Code/src/_07_树/_3_层序遍历实现/LevelTraverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Scratch_Code/src/_07_树/_3_层序遍历实现/LevelTraverse.java" afterDir="false" />
-    </list>
+    <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="前序遍历、中序遍历、后序遍历这个方法太牛逼了。。。。力扣颜色标记法题解下的某个Java实现的评论。" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -331,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599708162814</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="前序遍历、中序遍历、后序遍历这个方法太牛逼了。。。。力扣颜色标记法题解下的某个Java实现的评论。">
+      <created>1599739465586</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1599739465586</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,7 +366,8 @@
     <MESSAGE value="反转双向链表未理解" />
     <MESSAGE value="合并链表" />
     <MESSAGE value="二叉树" />
-    <option name="LAST_COMMIT_MESSAGE" value="二叉树" />
+    <MESSAGE value="前序遍历、中序遍历、后序遍历这个方法太牛逼了。。。。力扣颜色标记法题解下的某个Java实现的评论。" />
+    <option name="LAST_COMMIT_MESSAGE" value="前序遍历、中序遍历、后序遍历这个方法太牛逼了。。。。力扣颜色标记法题解下的某个Java实现的评论。" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2568" y="368" key="#Notifications" timestamp="1597722229298">
@@ -435,10 +437,10 @@
     <state x="344" y="112" key="SettingsEditor/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1597734912894" />
     <state x="2264" y="112" key="SettingsEditor/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599719906884" />
     <state x="370" y="95" key="SettingsEditor/0.0.1920.1170@0.0.1920.1170" timestamp="1599292316827" />
-    <state x="2472" y="318" key="Vcs.Push.Dialog.v2" timestamp="1599708166448">
+    <state x="2472" y="318" key="Vcs.Push.Dialog.v2" timestamp="1599739470747">
       <screen x="1920" y="0" width="1920" height="1170" />
     </state>
-    <state x="2472" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599708166448" />
+    <state x="2472" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599739470747" />
     <state x="552" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170@0.0.1920.1170" timestamp="1598187766555" />
     <state x="2674" y="497" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599656636639">
       <screen x="1920" y="0" width="1920" height="1170" />

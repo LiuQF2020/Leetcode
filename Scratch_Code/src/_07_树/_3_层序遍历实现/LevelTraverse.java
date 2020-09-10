@@ -12,8 +12,6 @@ class TreeNode {
         right = null;
     }
 }
-
-
 /*
 只需要增加一个队列，将遍历过程中的节点依次放进去;
 再去按照队列中的节点去遍历它们的子节点。
@@ -27,13 +25,13 @@ public class LevelTraverse {
         LinkedList<TreeNode> queue = new LinkedList<>();
         queue.offer(root);
         while (!queue.isEmpty()) {
-            TreeNode node = queue.poll();
-            System.out.print(node.val + " ");
-            if (node.left != null) {
-                queue.offer(node.left);
+            TreeNode cur = queue.poll();
+            System.out.print(cur.val + " ");
+            if (cur.left != null) {
+                queue.add(cur.left);
             }
-            if (node.right != null) {
-                queue.offer(node.right);
+            if (cur.right != null) {
+                queue.add(cur.right);
             }
 
         }

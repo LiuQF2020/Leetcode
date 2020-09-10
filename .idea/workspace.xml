@@ -19,8 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="合并链表">
+    <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="二叉树">
+      <change afterPath="$PROJECT_DIR$/Scratch_Code/src/_07_树/_2_前中后序的非递归实现/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scratch_Code/src/_07_树/_1_前中后序的递归实现/OrderWithRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/Scratch_Code/src/_07_树/_1_前中后序的递归实现/OrderWithRecursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scratch_Code/src/_07_树/_2_前中后序的非递归实现/OrderNoRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/Scratch_Code/src/_07_树/_2_前中后序的非递归实现/OrderNoRecursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scratch_Code/src/_07_树/_3_层序遍历实现/LevelTraverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Scratch_Code/src/_07_树/_3_层序遍历实现/LevelTraverse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +70,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -320,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599705573916</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="二叉树">
+      <created>1599708162814</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1599708162814</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,7 +364,8 @@
     <MESSAGE value="反转单向链表理解" />
     <MESSAGE value="反转双向链表未理解" />
     <MESSAGE value="合并链表" />
-    <option name="LAST_COMMIT_MESSAGE" value="合并链表" />
+    <MESSAGE value="二叉树" />
+    <option name="LAST_COMMIT_MESSAGE" value="二叉树" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2568" y="368" key="#Notifications" timestamp="1597722229298">
@@ -368,6 +380,10 @@
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
     <state x="637" y="309" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1170@0.0.1920.1170" timestamp="1598529923854" />
+    <state x="2461" y="13" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1599721861423">
+      <screen x="1920" y="0" width="1920" height="1170" />
+    </state>
+    <state x="2461" y="13" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599721861423" />
     <state x="740" y="298" key="FileChooserDialogImpl" timestamp="1598517500758">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
@@ -413,16 +429,16 @@
       <screen x="1920" y="0" width="1920" height="1170" />
     </state>
     <state x="2503" y="287" width="862" height="595" key="NewModule_or_Project.wizard/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597737635609" />
-    <state x="370" y="95" key="SettingsEditor" timestamp="1599292316827">
-      <screen x="0" y="0" width="1920" height="1170" />
-    </state>
-    <state x="344" y="112" key="SettingsEditor/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1597734912894" />
-    <state x="2264" y="112" key="SettingsEditor/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597735084581" />
-    <state x="370" y="95" key="SettingsEditor/0.0.1920.1170@0.0.1920.1170" timestamp="1599292316827" />
-    <state x="2472" y="318" key="Vcs.Push.Dialog.v2" timestamp="1599705593287">
+    <state x="2264" y="112" key="SettingsEditor" timestamp="1599719906884">
       <screen x="1920" y="0" width="1920" height="1170" />
     </state>
-    <state x="2472" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599705593287" />
+    <state x="344" y="112" key="SettingsEditor/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1597734912894" />
+    <state x="2264" y="112" key="SettingsEditor/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599719906884" />
+    <state x="370" y="95" key="SettingsEditor/0.0.1920.1170@0.0.1920.1170" timestamp="1599292316827" />
+    <state x="2472" y="318" key="Vcs.Push.Dialog.v2" timestamp="1599708166448">
+      <screen x="1920" y="0" width="1920" height="1170" />
+    </state>
+    <state x="2472" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599708166448" />
     <state x="552" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170@0.0.1920.1170" timestamp="1598187766555" />
     <state x="2674" y="497" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599656636639">
       <screen x="1920" y="0" width="1920" height="1170" />
@@ -441,10 +457,10 @@
       <screen x="1920" y="0" width="1920" height="1170" />
     </state>
     <state x="2597" y="150" width="781" height="629" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597722728965" />
-    <state x="2452" y="269" key="run.anything.popup" timestamp="1599703614061">
+    <state x="2452" y="269" key="run.anything.popup" timestamp="1599723336079">
       <screen x="1920" y="0" width="1920" height="1170" />
     </state>
-    <state x="2452" y="269" key="run.anything.popup/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599703614061" />
+    <state x="2452" y="269" key="run.anything.popup/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599723336079" />
     <state x="2459" y="135" width="840" height="1034" key="search.everywhere.popup" timestamp="1599705208904">
       <screen x="1920" y="0" width="1920" height="1170" />
     </state>

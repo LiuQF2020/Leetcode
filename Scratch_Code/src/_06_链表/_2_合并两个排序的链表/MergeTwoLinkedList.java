@@ -21,11 +21,11 @@ public class MergeTwoLinkedList {
         if (list1 == null)   return list2;
         if (list2 == null)   return list1;
 
-        if (list1.val >= list2.val) {
-            list2.next = merge(list1, list2.next);
+        if (list1.val <= list2.val) {
+            list1.next = merge(list1.next, list2);
             return list1;
         } else {
-            list1.next = merge(list1.next, list2);
+            list2.next = merge(list1, list2.next);
             return list2;
         }
     }

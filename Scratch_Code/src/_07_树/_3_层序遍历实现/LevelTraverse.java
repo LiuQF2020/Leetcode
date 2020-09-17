@@ -16,26 +16,8 @@ class TreeNode {
 只需要增加一个队列，将遍历过程中的节点依次放进去;
 再去按照队列中的节点去遍历它们的子节点。
  */
+// https://leetcode-cn.com/problems/binary-tree-level-order-traversal/
 public class LevelTraverse {
-    public void levelTraverse(TreeNode root) {
-        if (root == null) {
-            return;
-        }
-
-        LinkedList<TreeNode> queue = new LinkedList<>();
-        queue.add(root);
-        while (!queue.isEmpty()) {
-            TreeNode cur = queue.poll();
-            System.out.print(cur.val + " ");
-            if (cur.left != null) {
-                queue.add(cur.left);
-            }
-            if (cur.right != null) {
-                queue.add(cur.right);
-            }
-
-        }
-    }
 
     public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> res = new ArrayList<>();
@@ -64,3 +46,7 @@ public class LevelTraverse {
         return res;
     }
 }
+
+
+
+

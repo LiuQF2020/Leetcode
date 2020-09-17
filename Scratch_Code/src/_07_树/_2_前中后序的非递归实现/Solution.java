@@ -20,11 +20,13 @@ import java.util.Stack;
  * 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
  *
  */
+
+
 // 太牛逼了卧槽：压栈顺序刚好与遍历顺序相反。
 public class Solution {
 
     // 前序遍历
-    public List<Integer> preOrderTraversal(TreeNode root) {
+    public static List<Integer> preOrderTraversal(TreeNode root) {
         List<Integer> list = new LinkedList<>();
         Stack<Object> stack = new Stack<>();
 
@@ -88,5 +90,11 @@ public class Solution {
 
     public static void main(String[] args) {
         TreeNode treeNode = new TreeNode(1);
+        treeNode = new TreeNode(2);
+        treeNode = new TreeNode(4);
+
+
+        List<Integer> res = preOrderTraversal(treeNode);
+        System.out.println(res);
     }
 }

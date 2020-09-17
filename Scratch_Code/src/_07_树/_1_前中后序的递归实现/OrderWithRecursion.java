@@ -27,9 +27,9 @@ public class OrderWithRecursion {
 
     public void inOrder(TreeNode root) {
         if (root != null) {
-            preOrder(root.left);
+            inOrder(root.left);
             System.out.print(root.val + " ");
-            preOrder(root.right);
+            inOrder(root.right);
         }
     }
 

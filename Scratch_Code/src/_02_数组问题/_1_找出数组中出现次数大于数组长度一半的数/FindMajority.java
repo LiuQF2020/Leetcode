@@ -21,7 +21,7 @@ public class FindMajority {
     }
 
     public static void main(String[] args) {
-        int[] arr = {2, 0, 0, 0, 3, 4, 9, 1, 0, 0, 3, 3, 3, 3, 4, 3, 3, 3, 3};
+        int[] arr = {4, 3, 3, 0, 3, 3, 0, };
         System.out.println(findOverHalfNum(arr));
     }
 }

@@ -19,12 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="二叉树">
-      <change afterPath="$PROJECT_DIR$/Scratch_Code/src/HW复盘/_1_字符串特征值/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scratch_Code/src/HW复盘/_3_网格期望/Main.java" afterDir="false" />
+    <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="hw">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scratch_Code/src/_07_树/_3_层序遍历实现/LevelTraverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Scratch_Code/src/_07_树/_3_层序遍历实现/LevelTraverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Scratch_Code/_07_树/_3_层序遍历实现/LevelTraverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scratch_Code/_07_树/_3_层序遍历实现/LevelTraverse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scratch_Code/src/_02_数组问题/_1_找出数组中出现次数大于数组长度一半的数/FindMajority.java" beforeDir="false" afterPath="$PROJECT_DIR$/Scratch_Code/src/_02_数组问题/_1_找出数组中出现次数大于数组长度一半的数/FindMajority.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scratch_Code/HW复盘/_1_字符串特征值/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scratch_Code/HW复盘/_1_字符串特征值/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scratch_Code/_02_数组问题/_1_找出数组中出现次数大于数组长度一半的数/FindMajority.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scratch_Code/_02_数组问题/_1_找出数组中出现次数大于数组长度一半的数/FindMajority.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +76,20 @@
       <recent name="F:\Learn\Coding\Structure_Algorithm\codes\Leetcode\Scratch_Code\src\_02_数组问题\_2_找出数组中出现次数大于数组长度NofK的数" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.FindMajority">
+    <configuration name="FindMajority" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_02_数组问题._1_找出数组中出现次数大于数组长度一半的数.FindMajority" />
+      <module name="Scratch_Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_02_数组问题._1_找出数组中出现次数大于数组长度一半的数.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HW复盘._1_字符串特征值.Main" />
       <module name="Scratch_Code" />
@@ -130,19 +142,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoQueuesStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_04_栈._1_仅用队列实现栈.TwoQueuesStack" />
-      <module name="Scratch_Code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_04_栈._1_仅用队列实现栈.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -156,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindMajority" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.TwoQueuesStack" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +190,7 @@
       <workItem from="1600081584462" duration="2928000" />
       <workItem from="1600170806314" duration="1113000" />
       <workItem from="1600256769132" duration="1709000" />
-      <workItem from="1600304475647" duration="19151000" />
+      <workItem from="1600304475647" duration="22656000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1598187688773</created>
@@ -368,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600312280249</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="hw">
+      <created>1600351244652</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1600351244652</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -404,7 +410,8 @@
     <MESSAGE value="前序遍历、中序遍历、后序遍历这个方法太牛逼了。。。。力扣颜色标记法题解下的某个Java实现的评论。" />
     <MESSAGE value="Main" />
     <MESSAGE value="二叉树" />
-    <option name="LAST_COMMIT_MESSAGE" value="二叉树" />
+    <MESSAGE value="hw" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2568" y="368" key="#Notifications" timestamp="1597722229298">
@@ -432,46 +439,46 @@
     </state>
     <state x="2660" y="298" key="FileChooserDialogImpl/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599743581299" />
     <state x="740" y="298" key="FileChooserDialogImpl/0.0.1920.1170@0.0.1920.1170" timestamp="1598517500758" />
-    <state width="1867" height="233" key="GridCell.Tab.0.bottom" timestamp="1600345868364">
+    <state width="1867" height="367" key="GridCell.Tab.0.bottom" timestamp="1600353782421">
       <screen x="1920" y="0" width="1920" height="1170" />
     </state>
     <state width="1867" height="233" key="GridCell.Tab.0.bottom/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1600305695515" />
-    <state width="1867" height="233" key="GridCell.Tab.0.bottom/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1600345868364" />
+    <state width="1867" height="367" key="GridCell.Tab.0.bottom/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1600353782421" />
     <state width="1867" height="233" key="GridCell.Tab.0.bottom/0.0.1920.1170@0.0.1920.1170" timestamp="1600083132464" />
-    <state width="1867" height="233" key="GridCell.Tab.0.center" timestamp="1600345868364">
+    <state width="1867" height="367" key="GridCell.Tab.0.center" timestamp="1600353782421">
       <screen x="1920" y="0" width="1920" height="1170" />
     </state>
     <state width="1867" height="233" key="GridCell.Tab.0.center/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1600305695515" />
-    <state width="1867" height="233" key="GridCell.Tab.0.center/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1600345868364" />
+    <state width="1867" height="367" key="GridCell.Tab.0.center/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1600353782421" />
     <state width="1867" height="233" key="GridCell.Tab.0.center/0.0.1920.1170@0.0.1920.1170" timestamp="1600083132464" />
-    <state width="1867" height="233" key="GridCell.Tab.0.left" timestamp="1600345868364">
+    <state width="1867" height="367" key="GridCell.Tab.0.left" timestamp="1600353782421">
       <screen x="1920" y="0" width="1920" height="1170" />
     </state>
     <state width="1867" height="233" key="GridCell.Tab.0.left/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1600305695515" />
-    <state width="1867" height="233" key="GridCell.Tab.0.left/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1600345868364" />
+    <state width="1867" height="367" key="GridCell.Tab.0.left/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1600353782421" />
     <state width="1867" height="233" key="GridCell.Tab.0.left/0.0.1920.1170@0.0.1920.1170" timestamp="1600083132464" />
-    <state width="1867" height="233" key="GridCell.Tab.0.right" timestamp="1600345868364">
+    <state width="1867" height="367" key="GridCell.Tab.0.right" timestamp="1600353782421">
       <screen x="1920" y="0" width="1920" height="1170" />
     </state>
     <state width="1867" height="233" key="GridCell.Tab.0.right/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1600305695515" />
-    <state width="1867" height="233" key="GridCell.Tab.0.right/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1600345868364" />
+    <state width="1867" height="367" key="GridCell.Tab.0.right/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1600353782421" />
     <state width="1867" height="233" key="GridCell.Tab.0.right/0.0.1920.1170@0.0.1920.1170" timestamp="1600083132464" />
-    <state width="1867" height="367" key="GridCell.Tab.1.bottom" timestamp="1599831822187">
+    <state width="1867" height="367" key="GridCell.Tab.1.bottom" timestamp="1600353782422">
       <screen x="1920" y="0" width="1920" height="1170" />
     </state>
-    <state width="1867" height="367" key="GridCell.Tab.1.bottom/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599831822187" />
-    <state width="1867" height="367" key="GridCell.Tab.1.center" timestamp="1599831822187">
+    <state width="1867" height="367" key="GridCell.Tab.1.bottom/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1600353782422" />
+    <state width="1867" height="367" key="GridCell.Tab.1.center" timestamp="1600353782422">
       <screen x="1920" y="0" width="1920" height="1170" />
     </state>
-    <state width="1867" height="367" key="GridCell.Tab.1.center/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599831822187" />
-    <state width="1867" height="367" key="GridCell.Tab.1.left" timestamp="1599831822187">
+    <state width="1867" height="367" key="GridCell.Tab.1.center/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1600353782422" />
+    <state width="1867" height="367" key="GridCell.Tab.1.left" timestamp="1600353782422">
       <screen x="1920" y="0" width="1920" height="1170" />
     </state>
-    <state width="1867" height="367" key="GridCell.Tab.1.left/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599831822187" />
-    <state width="1867" height="367" key="GridCell.Tab.1.right" timestamp="1599831822187">
+    <state width="1867" height="367" key="GridCell.Tab.1.left/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1600353782422" />
+    <state width="1867" height="367" key="GridCell.Tab.1.right" timestamp="1600353782422">
       <screen x="1920" y="0" width="1920" height="1170" />
     </state>
-    <state width="1867" height="367" key="GridCell.Tab.1.right/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599831822187" />
+    <state width="1867" height="367" key="GridCell.Tab.1.right/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1600353782422" />
     <state x="2503" y="287" width="862" height="595" key="NewModule_or_Project.wizard" timestamp="1597737635609">
       <screen x="1920" y="0" width="1920" height="1170" />
     </state>
@@ -482,11 +489,11 @@
     <state x="344" y="112" key="SettingsEditor/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1597734912894" />
     <state x="2264" y="112" key="SettingsEditor/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599719906884" />
     <state x="370" y="95" key="SettingsEditor/0.0.1920.1170@0.0.1920.1170" timestamp="1599292316827" />
-    <state x="552" y="318" key="Vcs.Push.Dialog.v2" timestamp="1600312282241">
-      <screen x="0" y="0" width="1920" height="1170" />
+    <state x="2472" y="318" key="Vcs.Push.Dialog.v2" timestamp="1600351249128">
+      <screen x="1920" y="0" width="1920" height="1170" />
     </state>
     <state x="552" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1600312282241" />
-    <state x="2472" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599743587978" />
+    <state x="2472" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1600351249128" />
     <state x="552" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170@0.0.1920.1170" timestamp="1600087290672" />
     <state x="2674" y="497" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599656636639">
       <screen x="1920" y="0" width="1920" height="1170" />
@@ -514,5 +521,21 @@
       <screen x="1920" y="0" width="1920" height="1170" />
     </state>
     <state x="2459" y="135" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599705208904" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Scratch_Code/src/_02_数组问题/_1_找出数组中出现次数大于数组长度一半的数/FindMajority.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Scratch_Code/src/_02_数组问题/_1_找出数组中出现次数大于数组长度一半的数/FindMajority.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

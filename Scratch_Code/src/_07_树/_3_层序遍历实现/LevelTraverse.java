@@ -45,6 +45,30 @@ public class LevelTraverse {
 
         return res;
     }
+
+
+
+
+    public void levelTraverse(TreeNode root){
+        if(root == null){
+            return;
+        }
+
+        // 将节点按照层级结构依次装进队列里
+        LinkedList<TreeNode> queue = new LinkedList<>();
+        queue.offer(root);
+        while(!queue.isEmpty()){
+            TreeNode node = queue.poll();
+            System.out.print(node.val + " ");
+            if(node.left != null){
+                queue.offer(node.left);
+            }
+            if(node.right != null){
+                queue.offer(node.right);
+            }
+        }
+    }
+
 }
 
 

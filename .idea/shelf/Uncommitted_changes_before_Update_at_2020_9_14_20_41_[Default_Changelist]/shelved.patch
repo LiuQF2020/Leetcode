@@ -1,0 +1,470 @@
+Index: Leetcode_JianzhiOffer/src/Test/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Test;\r\n\r\n\r\npublic class Main {\r\n    public static void main(String[] args) {\r\n\r\n    }\r\n}\r\n\r\n\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Leetcode_JianzhiOffer/src/Test/Main.java	(revision f9182d7074de526568061bc2d1f1b0c133d8b730)
++++ Leetcode_JianzhiOffer/src/Test/Main.java	(date 1600086902853)
+@@ -1,12 +1,55 @@
+ package Test;
+ 
++import java.util.Arrays;
++import java.util.Scanner;
+ 
+ public class Main {
++    static int searchInsert(int []A, int target) {
++        int high=A.length;
++        int low=0;
++
++        while(low<high){
++            int mid=(high+low)/2;
++            if(A[mid]>=target){
++                high=mid;
++            }else
++                low=mid+1;
++        }
++        return high;
++
++    }
++
+     public static void main(String[] args) {
++        Scanner scanner=new Scanner(System.in);
++        int T=scanner.nextInt();
++        for (int i=0;i<T;i++){
++            int n=scanner.nextInt();
++            int m=scanner.nextInt();
++            int [] people=new int[n];
++            int [] role=new int[m];
++            for (int j=0;j<n;j++){
++                people[j]=scanner.nextInt();
++            }
++            for (int k=0;k<m;k++){
++                role[k]=scanner.nextInt();
++            }
++            Arrays.sort(role);
++            for (int q=0;q<people.length;q++){
++                int p=searchInsert(role,people[q]);
++                if (p>=role.length){
++                    people[q]=0;
++                }else if (p==0) {
++                    people[q]=role.length;
++                }else {
++                    people[q]=role.length-p;
++                }
+ 
+-    }
+-}
++            }
++            for (int one : people) {
++                System.out.print(one);
++                System.out.print(" ");
++            }
+ 
+-
+-
+-
++        }
++    }
++}
+Index: Leetcode_JianzhiOffer/src/_03_数组中找重复的数字/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Leetcode_JianzhiOffer/src/_03_数组中找重复的数字/Main.java	(date 1600001014544)
++++ Leetcode_JianzhiOffer/src/_03_数组中找重复的数字/Main.java	(date 1600001014544)
+@@ -0,0 +1,56 @@
++package _03_数组中找重复的数字;
++
++
++
++import java.util.Scanner;
++
++public class Main {
++
++    public static int num = 0;
++
++    public static void DFS(int[][] map, int[] temp, int x) {
++        temp[x] = 1;
++        num++;
++        for (int i = 0; i < temp.length; i++) {
++            if (temp[i] == 0 && map[x][i] == 1) {
++                DFS(map, temp, i);
++            }
++        }
++    }
++
++    public static boolean isOk(int n, int[][] map) {
++        int[] temp = new int[n];
++        num = 0;
++        DFS(map, temp, 0);
++        return num ==n;
++    }
++
++    public static void main(String[] args) {
++        Scanner sc =new Scanner(System.in);
++        int t = sc.nextInt();
++        for (int i = 0; i < t;i++) {
++            int n, m, k;
++            n = sc.nextInt();
++            m = sc.nextInt();
++            k = sc.nextInt();
++
++            int[][] map = new int[n][n];
++            for (int j = 0; j < m; j++) {
++                int x, y, va;
++                x = sc.nextInt() - 1;
++                y = sc.nextInt() - 1;
++                va = sc.nextInt();
++                if (va <= k) {
++                    map[x][y] = 1;
++                }
++            }
++
++            if (isOk(n, map)) {
++                System.out.println("Yes");
++            } else {
++                System.out.print("No");
++            }
++        }
++
++    }
++}
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"BranchesTreeState\">\r\n    <expand>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n    </expand>\r\n    <select />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8\" name=\"Default Changelist\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_35_复杂链表的复制/Solution.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_45_把数组排成最小的数/Solution.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"generalSettings\">\r\n      <MavenGeneralSettings>\r\n        <option name=\"mavenHome\" value=\"C:\\Program Files\\JetBrains\\IntelliJ IDEA 2020.1.1\\plugins\\maven\\lib\\maven3\" />\r\n      </MavenGeneralSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1gB3qfpuCH4u4vFJnTgoIQV4du9\" />\r\n  <component name=\"ProjectLevelVcsManager\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"autoscrollToSource\" value=\"true\" />\r\n    <option name=\"foldersAlwaysOnTop\" value=\"false\" />\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"ToolWindowFavorites.ShowToolbar\" value=\"false\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"aspect.path.notification.shown\" value=\"true\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/../Written_test\" />\r\n    <property name=\"project.structure.last.edited\" value=\"Project\" />\r\n    <property name=\"project.structure.proportion\" value=\"0.0\" />\r\n    <property name=\"project.structure.side.proportion\" value=\"0.0\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"org.jetbrains.plugins.github.ui.GithubSettingsConfigurable\" />\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.Solution (1)\">\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Test.Main\" />\r\n      <module name=\"Leetcode_JianzhiOffer\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"Test.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Solution (1)\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"_45_把数组排成最小的数.Solution\" />\r\n      <module name=\"Leetcode_JianzhiOffer\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"_45_把数组排成最小的数.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Solution\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"_06_从尾到头打印链表.Solution\" />\r\n      <module name=\"Leetcode_JianzhiOffer\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"_06_从尾到头打印链表.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"ArquillianTestNG\" factoryName=\"\" nameIsGenerated=\"true\">\r\n      <option name=\"arquillianRunConfiguration\">\r\n        <value>\r\n          <option name=\"containerStateName\" value=\"\" />\r\n        </value>\r\n      </option>\r\n      <option name=\"TEST_OBJECT\" value=\"CLASS\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <list>\r\n      <item itemvalue=\"Application.Main\" />\r\n      <item itemvalue=\"Application.Solution\" />\r\n      <item itemvalue=\"Application.Solution (1)\" />\r\n    </list>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.Solution (1)\" />\r\n        <item itemvalue=\"Application.Solution\" />\r\n        <item itemvalue=\"Application.Main\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1597574351866</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1597574351866</updated>\r\n      <workItem from=\"1597574353290\" duration=\"1814000\" />\r\n      <workItem from=\"1597578931165\" duration=\"2539000\" />\r\n      <workItem from=\"1597584005887\" duration=\"572000\" />\r\n      <workItem from=\"1597584587852\" duration=\"34000\" />\r\n      <workItem from=\"1597584842576\" duration=\"8000\" />\r\n      <workItem from=\"1597719682943\" duration=\"2108000\" />\r\n      <workItem from=\"1597722024191\" duration=\"4586000\" />\r\n      <workItem from=\"1597737893420\" duration=\"1579000\" />\r\n      <workItem from=\"1598187637747\" duration=\"756000\" />\r\n      <workItem from=\"1598278477760\" duration=\"5185000\" />\r\n      <workItem from=\"1598330634064\" duration=\"3678000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"111\">\r\n      <created>1598187688773</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1598187688773</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"这里因为递归是压栈再出栈，所以tmp是先add 18，即先进后出\">\r\n      <created>1598264941658</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1598264941658</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"del out\">\r\n      <created>1598265228087</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1598265228087</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"两个链表的第一个公共节点。\">\r\n      <created>1598284802391</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1598284802391</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"5\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"111\" />\r\n    <MESSAGE value=\"这里因为递归是压栈再出栈，所以tmp是先add 18，即先进后出\" />\r\n    <MESSAGE value=\"del out\" />\r\n    <MESSAGE value=\"两个链表的第一个公共节点。\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"两个链表的第一个公共节点。\" />\r\n  </component>\r\n  <component name=\"WindowStateProjectService\">\r\n    <state x=\"2568\" y=\"368\" key=\"#Notifications\" timestamp=\"1597722229298\">\r\n      <screen x=\"1920\" y=\"0\" width=\"1920\" height=\"1170\" />\r\n    </state>\r\n    <state x=\"2568\" y=\"368\" key=\"#Notifications/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170\" timestamp=\"1597722229298\" />\r\n    <state x=\"2635\" y=\"323\" key=\"#Web_Browsers\" timestamp=\"1597735113375\">\r\n      <screen x=\"1920\" y=\"0\" width=\"1920\" height=\"1170\" />\r\n    </state>\r\n    <state x=\"2635\" y=\"323\" key=\"#Web_Browsers/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170\" timestamp=\"1597735113375\" />\r\n    <state x=\"133\" y=\"15\" key=\"#com.intellij.execution.impl.EditConfigurationsDialog\" timestamp=\"1598256175277\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"738\" />\r\n    </state>\r\n    <state x=\"133\" y=\"15\" key=\"#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738\" timestamp=\"1598256175277\" />\r\n    <state x=\"168\" y=\"0\" key=\"CommitChangelistDialog2\" timestamp=\"1598284798394\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"738\" />\r\n    </state>\r\n    <state x=\"168\" y=\"0\" key=\"CommitChangelistDialog2/0.0.1366.738@0.0.1366.738\" timestamp=\"1598284798394\" />\r\n    <state width=\"438\" height=\"546\" key=\"DebuggerActiveHint\" timestamp=\"1598264670920\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"738\" />\r\n    </state>\r\n    <state width=\"438\" height=\"546\" key=\"DebuggerActiveHint/0.0.1366.738@0.0.1366.738\" timestamp=\"1598264670920\" />\r\n    <state x=\"740\" y=\"298\" key=\"FileChooserDialogImpl\" timestamp=\"1597835156075\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1170\" />\r\n    </state>\r\n    <state x=\"2660\" y=\"298\" key=\"FileChooserDialogImpl/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170\" timestamp=\"1597737928882\" />\r\n    <state x=\"740\" y=\"298\" key=\"FileChooserDialogImpl/0.0.1920.1170@0.0.1920.1170\" timestamp=\"1597835156075\" />\r\n    <state width=\"1313\" height=\"221\" key=\"GridCell.Tab.-1.bottom\" timestamp=\"1598264377245\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"738\" />\r\n    </state>\r\n    <state width=\"1313\" height=\"221\" key=\"GridCell.Tab.-1.bottom/0.0.1366.738@0.0.1366.738\" timestamp=\"1598264377245\" />\r\n    <state width=\"1313\" height=\"221\" key=\"GridCell.Tab.-1.center\" timestamp=\"1598264377244\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"738\" />\r\n    </state>\r\n    <state width=\"1313\" height=\"221\" key=\"GridCell.Tab.-1.center/0.0.1366.738@0.0.1366.738\" timestamp=\"1598264377244\" />\r\n    <state width=\"1313\" height=\"221\" key=\"GridCell.Tab.-1.left\" timestamp=\"1598264377244\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"738\" />\r\n    </state>\r\n    <state width=\"1313\" height=\"221\" key=\"GridCell.Tab.-1.left/0.0.1366.738@0.0.1366.738\" timestamp=\"1598264377244\" />\r\n    <state width=\"1313\" height=\"221\" key=\"GridCell.Tab.-1.right\" timestamp=\"1598264377245\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"738\" />\r\n    </state>\r\n    <state width=\"1313\" height=\"221\" key=\"GridCell.Tab.-1.right/0.0.1366.738@0.0.1366.738\" timestamp=\"1598264377245\" />\r\n    <state width=\"1313\" height=\"201\" key=\"GridCell.Tab.0.bottom\" timestamp=\"1598265277538\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"738\" />\r\n    </state>\r\n    <state width=\"1313\" height=\"201\" key=\"GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738\" timestamp=\"1598265277538\" />\r\n    <state width=\"1867\" height=\"344\" key=\"GridCell.Tab.0.bottom/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170\" timestamp=\"1597737786784\" />\r\n    <state width=\"1313\" height=\"201\" key=\"GridCell.Tab.0.center\" timestamp=\"1598265277538\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"738\" />\r\n    </state>\r\n    <state width=\"1313\" height=\"201\" key=\"GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738\" timestamp=\"1598265277538\" />\r\n    <state width=\"1867\" height=\"344\" key=\"GridCell.Tab.0.center/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170\" timestamp=\"1597737786784\" />\r\n    <state width=\"1313\" height=\"201\" key=\"GridCell.Tab.0.left\" timestamp=\"1598265277538\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"738\" />\r\n    </state>\r\n    <state width=\"1313\" height=\"201\" key=\"GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738\" timestamp=\"1598265277538\" />\r\n    <state width=\"1867\" height=\"344\" key=\"GridCell.Tab.0.left/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170\" timestamp=\"1597737786784\" />\r\n    <state width=\"1313\" height=\"201\" key=\"GridCell.Tab.0.right\" timestamp=\"1598265277538\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"738\" />\r\n    </state>\r\n    <state width=\"1313\" height=\"201\" key=\"GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738\" timestamp=\"1598265277538\" />\r\n    <state width=\"1867\" height=\"344\" key=\"GridCell.Tab.0.right/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170\" timestamp=\"1597737786784\" />\r\n    <state width=\"1313\" height=\"221\" key=\"GridCell.Tab.1.bottom\" timestamp=\"1598264360394\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"738\" />\r\n    </state>\r\n    <state width=\"1313\" height=\"221\" key=\"GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738\" timestamp=\"1598264360394\" />\r\n    <state width=\"1867\" height=\"344\" key=\"GridCell.Tab.1.bottom/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170\" timestamp=\"1597737786784\" />\r\n    <state width=\"1313\" height=\"221\" key=\"GridCell.Tab.1.center\" timestamp=\"1598264360394\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"738\" />\r\n    </state>\r\n    <state width=\"1313\" height=\"221\" key=\"GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738\" timestamp=\"1598264360394\" />\r\n    <state width=\"1867\" height=\"344\" key=\"GridCell.Tab.1.center/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170\" timestamp=\"1597737786784\" />\r\n    <state width=\"1313\" height=\"221\" key=\"GridCell.Tab.1.left\" timestamp=\"1598264360394\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"738\" />\r\n    </state>\r\n    <state width=\"1313\" height=\"221\" key=\"GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738\" timestamp=\"1598264360394\" />\r\n    <state width=\"1867\" height=\"344\" key=\"GridCell.Tab.1.left/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170\" timestamp=\"1597737786784\" />\r\n    <state width=\"1313\" height=\"221\" key=\"GridCell.Tab.1.right\" timestamp=\"1598264360394\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"738\" />\r\n    </state>\r\n    <state width=\"1313\" height=\"221\" key=\"GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738\" timestamp=\"1598264360394\" />\r\n    <state width=\"1867\" height=\"344\" key=\"GridCell.Tab.1.right/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170\" timestamp=\"1597737786784\" />\r\n    <state x=\"2503\" y=\"287\" width=\"862\" height=\"595\" key=\"NewModule_or_Project.wizard\" timestamp=\"1597737635609\">\r\n      <screen x=\"1920\" y=\"0\" width=\"1920\" height=\"1170\" />\r\n    </state>\r\n    <state x=\"2503\" y=\"287\" width=\"862\" height=\"595\" key=\"NewModule_or_Project.wizard/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170\" timestamp=\"1597737635609\" />\r\n    <state x=\"134\" y=\"0\" key=\"SettingsEditor\" timestamp=\"1598265035384\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"738\" />\r\n    </state>\r\n    <state x=\"134\" y=\"0\" key=\"SettingsEditor/0.0.1366.738@0.0.1366.738\" timestamp=\"1598265035384\" />\r\n    <state x=\"344\" y=\"112\" key=\"SettingsEditor/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170\" timestamp=\"1597734912894\" />\r\n    <state x=\"2264\" y=\"112\" key=\"SettingsEditor/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170\" timestamp=\"1597735084581\" />\r\n    <state x=\"350\" y=\"75\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1598284805722\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"738\" />\r\n    </state>\r\n    <state x=\"350\" y=\"75\" key=\"Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738\" timestamp=\"1598284805722\" />\r\n    <state x=\"2472\" y=\"318\" key=\"Vcs.Push.Dialog.v2/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170\" timestamp=\"1597574444916\" />\r\n    <state x=\"552\" y=\"318\" key=\"Vcs.Push.Dialog.v2/0.0.1920.1170@0.0.1920.1170\" timestamp=\"1598187766555\" />\r\n    <state x=\"2674\" y=\"497\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2\" timestamp=\"1597574441117\">\r\n      <screen x=\"1920\" y=\"0\" width=\"1920\" height=\"1170\" />\r\n    </state>\r\n    <state x=\"2674\" y=\"497\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170\" timestamp=\"1597574441117\" />\r\n    <state x=\"2582\" y=\"316\" width=\"596\" height=\"538\" key=\"find.popup\" timestamp=\"1597584607397\">\r\n      <screen x=\"1920\" y=\"0\" width=\"1920\" height=\"1170\" />\r\n    </state>\r\n    <state x=\"2582\" y=\"316\" width=\"596\" height=\"538\" key=\"find.popup/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170\" timestamp=\"1597584607397\" />\r\n    <state x=\"0\" y=\"0\" key=\"new project wizard\" timestamp=\"1598283723153\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"738\" />\r\n    </state>\r\n    <state x=\"0\" y=\"0\" key=\"new project wizard/0.0.1366.738@0.0.1366.738\" timestamp=\"1598283723153\" />\r\n    <state x=\"2078\" y=\"117\" key=\"new project wizard/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170\" timestamp=\"1597738107152\" />\r\n    <state x=\"2597\" y=\"150\" width=\"781\" height=\"629\" key=\"org.intellij.images.editor.actions.BackgroundImageDialog\" timestamp=\"1597722728965\">\r\n      <screen x=\"1920\" y=\"0\" width=\"1920\" height=\"1170\" />\r\n    </state>\r\n    <state x=\"2597\" y=\"150\" width=\"781\" height=\"629\" key=\"org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170\" timestamp=\"1597722728965\" />\r\n    <state x=\"262\" y=\"-1\" width=\"840\" height=\"1034\" key=\"search.everywhere.popup\" timestamp=\"1598264885653\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"738\" />\r\n    </state>\r\n    <state x=\"262\" y=\"-1\" width=\"840\" height=\"1034\" key=\"search.everywhere.popup/0.0.1366.738@0.0.1366.738\" timestamp=\"1598264885653\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision f9182d7074de526568061bc2d1f1b0c133d8b730)
++++ .idea/workspace.xml	(date 1600087136932)
+@@ -20,9 +20,13 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="">
+-      <change afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_35_复杂链表的复制/Solution.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_45_把数组排成最小的数/Solution.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/Test/Solution.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/Test/_1_数字找规律/Main.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/Test/_2_字符串差距检测/Main.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/Test/_3_走出迷宫步数/Main.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_03_数组中找重复的数字/Main.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/Test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/Test/Main.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -67,7 +71,20 @@
+     <property name="project.structure.side.proportion" value="0.0" />
+     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+   </component>
+-  <component name="RunManager" selected="Application.Solution (1)">
++  <component name="RunManager" selected="Application.Main">
++    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="Test._1_数字找规律.Main" />
++      <module name="Leetcode_JianzhiOffer" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="Test._1_数字找规律.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
+     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="Test.Main" />
+       <module name="Leetcode_JianzhiOffer" />
+@@ -124,12 +141,14 @@
+       <item itemvalue="Application.Main" />
+       <item itemvalue="Application.Solution" />
+       <item itemvalue="Application.Solution (1)" />
++      <item itemvalue="Application.Main (1)" />
+     </list>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Application.Main" />
++        <item itemvalue="Application.Main (1)" />
+         <item itemvalue="Application.Solution (1)" />
+         <item itemvalue="Application.Solution" />
+-        <item itemvalue="Application.Main" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -151,7 +170,21 @@
+       <workItem from="1597737893420" duration="1579000" />
+       <workItem from="1598187637747" duration="756000" />
+       <workItem from="1598278477760" duration="5185000" />
+-      <workItem from="1598330634064" duration="3678000" />
++      <workItem from="1598330634064" duration="3740000" />
++      <workItem from="1598361039250" duration="1796000" />
++      <workItem from="1598368169822" duration="764000" />
++      <workItem from="1598371887431" duration="33000" />
++      <workItem from="1598372040297" duration="69000" />
++      <workItem from="1598372147821" duration="28000" />
++      <workItem from="1598372214259" duration="39000" />
++      <workItem from="1599219413094" duration="793000" />
++      <workItem from="1599370549862" duration="669000" />
++      <workItem from="1599390366466" duration="4077000" />
++      <workItem from="1599462161169" duration="6638000" />
++      <workItem from="1599528197963" duration="121000" />
++      <workItem from="1599528354441" duration="769000" />
++      <workItem from="1599997465450" duration="3026000" />
++      <workItem from="1600084214122" duration="2667000" />
+     </task>
+     <task id="LOCAL-00001" summary="111">
+       <created>1598187688773</created>
+@@ -181,7 +214,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1598284802391</updated>
+     </task>
+-    <option name="localTasksCounter" value="5" />
++    <task id="LOCAL-00005" summary="n">
++      <created>1598344990399</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1598344990399</updated>
++    </task>
++    <option name="localTasksCounter" value="6" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -204,7 +244,8 @@
+     <MESSAGE value="这里因为递归是压栈再出栈，所以tmp是先add 18，即先进后出" />
+     <MESSAGE value="del out" />
+     <MESSAGE value="两个链表的第一个公共节点。" />
+-    <option name="LAST_COMMIT_MESSAGE" value="两个链表的第一个公共节点。" />
++    <MESSAGE value="n" />
++    <option name="LAST_COMMIT_MESSAGE" value="n" />
+   </component>
+   <component name="WindowStateProjectService">
+     <state x="2568" y="368" key="#Notifications" timestamp="1597722229298">
+@@ -219,10 +260,10 @@
+       <screen x="0" y="0" width="1366" height="738" />
+     </state>
+     <state x="133" y="15" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1598256175277" />
+-    <state x="168" y="0" key="CommitChangelistDialog2" timestamp="1598284798394">
++    <state x="168" y="0" key="CommitChangelistDialog2" timestamp="1598344988422">
+       <screen x="0" y="0" width="1366" height="738" />
+     </state>
+-    <state x="168" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1598284798394" />
++    <state x="168" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1598344988422" />
+     <state width="438" height="546" key="DebuggerActiveHint" timestamp="1598264670920">
+       <screen x="0" y="0" width="1366" height="738" />
+     </state>
+@@ -248,25 +289,25 @@
+       <screen x="0" y="0" width="1366" height="738" />
+     </state>
+     <state width="1313" height="221" key="GridCell.Tab.-1.right/0.0.1366.738@0.0.1366.738" timestamp="1598264377245" />
+-    <state width="1313" height="201" key="GridCell.Tab.0.bottom" timestamp="1598265277538">
++    <state width="1313" height="186" key="GridCell.Tab.0.bottom" timestamp="1600086908453">
+       <screen x="0" y="0" width="1366" height="738" />
+     </state>
+-    <state width="1313" height="201" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1598265277538" />
++    <state width="1313" height="186" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1600086908453" />
+     <state width="1867" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597737786784" />
+-    <state width="1313" height="201" key="GridCell.Tab.0.center" timestamp="1598265277538">
++    <state width="1313" height="186" key="GridCell.Tab.0.center" timestamp="1600086908453">
+       <screen x="0" y="0" width="1366" height="738" />
+     </state>
+-    <state width="1313" height="201" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1598265277538" />
++    <state width="1313" height="186" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1600086908453" />
+     <state width="1867" height="344" key="GridCell.Tab.0.center/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597737786784" />
+-    <state width="1313" height="201" key="GridCell.Tab.0.left" timestamp="1598265277538">
++    <state width="1313" height="186" key="GridCell.Tab.0.left" timestamp="1600086908453">
+       <screen x="0" y="0" width="1366" height="738" />
+     </state>
+-    <state width="1313" height="201" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1598265277538" />
++    <state width="1313" height="186" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1600086908453" />
+     <state width="1867" height="344" key="GridCell.Tab.0.left/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597737786784" />
+-    <state width="1313" height="201" key="GridCell.Tab.0.right" timestamp="1598265277538">
++    <state width="1313" height="186" key="GridCell.Tab.0.right" timestamp="1600086908453">
+       <screen x="0" y="0" width="1366" height="738" />
+     </state>
+-    <state width="1313" height="201" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1598265277538" />
++    <state width="1313" height="186" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1600086908453" />
+     <state width="1867" height="344" key="GridCell.Tab.0.right/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597737786784" />
+     <state width="1313" height="221" key="GridCell.Tab.1.bottom" timestamp="1598264360394">
+       <screen x="0" y="0" width="1366" height="738" />
+@@ -292,16 +333,16 @@
+       <screen x="1920" y="0" width="1920" height="1170" />
+     </state>
+     <state x="2503" y="287" width="862" height="595" key="NewModule_or_Project.wizard/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597737635609" />
+-    <state x="134" y="0" key="SettingsEditor" timestamp="1598265035384">
++    <state x="134" y="0" key="SettingsEditor" timestamp="1599528801855">
+       <screen x="0" y="0" width="1366" height="738" />
+     </state>
+-    <state x="134" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1598265035384" />
++    <state x="134" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1599528801855" />
+     <state x="344" y="112" key="SettingsEditor/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1597734912894" />
+     <state x="2264" y="112" key="SettingsEditor/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597735084581" />
+-    <state x="350" y="75" key="Vcs.Push.Dialog.v2" timestamp="1598284805722">
++    <state x="350" y="75" key="Vcs.Push.Dialog.v2" timestamp="1598345015000">
+       <screen x="0" y="0" width="1366" height="738" />
+     </state>
+-    <state x="350" y="75" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1598284805722" />
++    <state x="350" y="75" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1598345015000" />
+     <state x="2472" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597574444916" />
+     <state x="552" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170@0.0.1920.1170" timestamp="1598187766555" />
+     <state x="2674" y="497" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597574441117">
+@@ -321,6 +362,10 @@
+       <screen x="1920" y="0" width="1920" height="1170" />
+     </state>
+     <state x="2597" y="150" width="781" height="629" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597722728965" />
++    <state x="255" y="161" key="run.anything.popup" timestamp="1599999570049">
++      <screen x="0" y="0" width="1366" height="738" />
++    </state>
++    <state x="255" y="161" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1599999570049" />
+     <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1598264885653">
+       <screen x="0" y="0" width="1366" height="738" />
+     </state>
+Index: Leetcode_JianzhiOffer/src/Test/_1_数字找规律/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Leetcode_JianzhiOffer/src/Test/_1_数字找规律/Main.java	(date 1599394613696)
++++ Leetcode_JianzhiOffer/src/Test/_1_数字找规律/Main.java	(date 1599394613696)
+@@ -0,0 +1,7 @@
++package Test._1_数字找规律;
++
++public class Main {
++    public static void main(String[] args) {
++        System.out.println(1 + "," + 5);
++    }
++}
+Index: Leetcode_JianzhiOffer/src/Test/_2_字符串差距检测/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Leetcode_JianzhiOffer/src/Test/_2_字符串差距检测/Main.java	(date 1599394185516)
++++ Leetcode_JianzhiOffer/src/Test/_2_字符串差距检测/Main.java	(date 1599394185516)
+@@ -0,0 +1,34 @@
++package Test._2_字符串差距检测;
++import java.util.*;
++
++public class Main {
++    static int row, col;
++    static double [][] dp;
++    static double [][][] mp;
++    public static void main(String [] args){
++        Scanner sc = new Scanner(System.in);
++        row = sc.nextInt();
++        col = sc.nextInt();
++        dp = new double[row + 2][col + 2];
++        mp = new double[row + 2][col + 2][3];
++        for(int i = 1; i <= row; i++){
++            for(int j = 1; j <= col; j++){
++                mp[i][j][2] = sc.nextDouble();
++                mp[i][j][1] = sc.nextDouble();
++                mp[i][j][0] = sc.nextDouble();
++            }
++        }
++        for(int i = row; i>0; i--) {
++            for(int j = col; j>0; j--) {
++                if(i == row && j == col){
++                    continue;
++                }
++                if(Math.abs( 1- mp[i][j][0]) < 1e-7){
++                    continue;
++                }
++                dp[i][j] = (mp[i][j][1]*dp[i][j+1]+mp[i][j][2]*dp[i+1][j]+1)/(1-mp[i][j][0]);
++            }
++        }
++        System.out.println(dp[1][1]);
++    }
++}
+Index: Leetcode_JianzhiOffer/src/Test/_3_走出迷宫步数/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Leetcode_JianzhiOffer/src/Test/_3_走出迷宫步数/Main.java	(date 1599394030910)
++++ Leetcode_JianzhiOffer/src/Test/_3_走出迷宫步数/Main.java	(date 1599394030910)
+@@ -0,0 +1,54 @@
++package Test._3_走出迷宫步数;
++
++import java.util.LinkedList;
++import java.util.List;
++import java.util.Scanner;
++
++public class Main {
++    public static String F(String s, int n) {
++        StringBuilder sb = new StringBuilder();
++        for (int i = 0; i < s.length(); i++) {
++            if (s.charAt(i) - '0' < n)
++                sb.append(s.charAt(i));
++        }
++        return sb.toString();
++    }
++
++    public static boolean isSub(String pa, String sub1) {
++        if (sub1.length() == 0)
++            return true;
++        if (pa.length() == 0)
++            return false;
++        for (int i = 0; i <= pa.length() - sub1.length(); i++) {
++            for (int j = 0; j < sub1.length(); j++) {
++                if (pa.charAt(i+j) == sub1.charAt(j)){
++                    if (j == sub1.length() - 1)
++                        return true;
++                }
++                    else
++                        break;
++            }
++        }
++        return false;
++    }
++    public static void main(String[] args) {
++        Scanner sc = new Scanner(System.in);
++        List<String> l = new LinkedList<>();
++        while (true) {
++            String temp = sc.nextLine();
++            l.add(temp);
++            if (temp.length()==1)
++                break;
++        }
++        l.add(sc.nextLine());
++        int n = l.size();
++        int f = Integer.parseInt(l.get(n - 2));
++        String subFeature = F(l.get(n - 1), f);
++        for (int i = 0; i < n- 2; i++) {
++            String temp;
++            if (isSub(F(temp = l.get(i), f), subFeature)){
++                System.out.println(l.get(i));
++            }
++        }
++    }
++}
+Index: Leetcode_JianzhiOffer/src/Test/Solution.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Leetcode_JianzhiOffer/src/Test/Solution.java	(date 1599219545385)
++++ Leetcode_JianzhiOffer/src/Test/Solution.java	(date 1599219545385)
+@@ -0,0 +1,18 @@
++package Test;
++
++class Solution {
++    public int longestOnes(int[] A, int K) {
++        int res = 0, i = 0, j = 0;
++        for (; i < A.length; i++) {
++            if (A[i] == 0) {
++                if (K > 0) {
++                    K--;
++                } else {
++                    res = Math.max(res, i - j);
++                    while (A[j++] == 1);
++                }
++            }
++        }
++        return Math.max(res, i - j);
++    }
++}

@@ -19,10 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_35_复杂链表的复制/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_45_把数组排成最小的数/Solution.java" afterDir="false" />
+    <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="hw">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scratch_Code/src/_02_数组问题/_1_找出数组中出现次数大于数组长度一半的数/FindMajority.java" beforeDir="false" afterPath="$PROJECT_DIR$/Scratch_Code/src/_02_数组问题/_1_找出数组中出现次数大于数组长度一半的数/FindMajority.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scratch_Code/HW复盘/_1_字符串特征值/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scratch_Code/HW复盘/_1_字符串特征值/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Scratch_Code/_02_数组问题/_1_找出数组中出现次数大于数组长度一半的数/FindMajority.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Scratch_Code/_02_数组问题/_1_找出数组中出现次数大于数组长度一半的数/FindMajority.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,17 +58,51 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowFavorites.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Written_test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Java/JAVA/dianshangmiaosha/第五六章.查询优化/miaoshaStable" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Learn\Coding\Structure_Algorithm\codes\Leetcode\Scratch_Code\src\_02_数组问题\_2_找出数组中出现次数大于数组长度NofK的数" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.FindMajority">
+    <configuration name="FindMajority" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_02_数组问题._1_找出数组中出现次数大于数组长度一半的数.FindMajority" />
+      <module name="Scratch_Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_02_数组问题._1_找出数组中出现次数大于数组长度一半的数.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW复盘._1_字符串特征值.Main" />
+      <module name="Scratch_Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HW复盘._1_字符串特征值.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test.Main" />
       <module name="Leetcode_JianzhiOffer" />
@@ -81,25 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_45_把数组排成最小的数.Solution" />
-      <module name="Leetcode_JianzhiOffer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_45_把数组排成最小的数.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_06_从尾到头打印链表.Solution" />
-      <module name="Leetcode_JianzhiOffer" />
+      <option name="MAIN_CLASS_NAME" value="_07_树._2_前中后序的非递归实现.Solution" />
+      <module name="Scratch_Code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_06_从尾到头打印链表.*" />
+          <option name="PATTERN" value="_07_树._2_前中后序的非递归实现.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,29 +129,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_06_链表._2_合并两个排序的链表.Test" />
+      <module name="Scratch_Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_06_链表._2_合并两个排序的链表.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.Solution (1)" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution (1)" />
+        <item itemvalue="Application.FindMajority" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -150,8 +180,17 @@
       <workItem from="1597722024191" duration="4586000" />
       <workItem from="1597737893420" duration="1579000" />
       <workItem from="1598187637747" duration="756000" />
-      <workItem from="1598278477760" duration="5185000" />
-      <workItem from="1598330634064" duration="3678000" />
+      <workItem from="1598529906405" duration="359000" />
+      <workItem from="1598530303654" duration="14440000" />
+      <workItem from="1598697866947" duration="1355000" />
+      <workItem from="1598749643872" duration="6326000" />
+      <workItem from="1599273700105" duration="9613000" />
+      <workItem from="1599554839476" duration="1421000" />
+      <workItem from="1599556267305" duration="10979000" />
+      <workItem from="1600081584462" duration="2928000" />
+      <workItem from="1600170806314" duration="1113000" />
+      <workItem from="1600256769132" duration="1709000" />
+      <workItem from="1600304475647" duration="22656000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1598187688773</created>
@@ -160,28 +199,182 @@
       <option name="project" value="LOCAL" />
       <updated>1598187688773</updated>
     </task>
-    <task id="LOCAL-00002" summary="这里因为递归是压栈再出栈，所以tmp是先add 18，即先进后出">
-      <created>1598264941658</created>
+    <task id="LOCAL-00002" summary="手撕代码">
+      <created>1599555138149</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1598264941658</updated>
+      <updated>1599555138149</updated>
     </task>
-    <task id="LOCAL-00003" summary="del out">
-      <created>1598265228087</created>
+    <task id="LOCAL-00003" summary="手撕代码">
+      <created>1599555210571</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1598265228087</updated>
+      <updated>1599555210571</updated>
     </task>
-    <task id="LOCAL-00004" summary="两个链表的第一个公共节点。">
-      <created>1598284802391</created>
+    <task id="LOCAL-00004" summary="二分查找">
+      <created>1599561221492</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1598284802391</updated>
+      <updated>1599561221492</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="k">
+      <created>1599572941921</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599572941921</updated>
+    </task>
+    <task id="LOCAL-00006" summary="majorK">
+      <created>1599612486853</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1599612486853</updated>
+    </task>
+    <task id="LOCAL-00007" summary="两个队列实现栈">
+      <created>1599638357981</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1599638357981</updated>
+    </task>
+    <task id="LOCAL-00008" summary="两个队列实现栈">
+      <created>1599652796191</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1599652796191</updated>
+    </task>
+    <task id="LOCAL-00009" summary="两个队列实现栈">
+      <created>1599652836151</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1599652836151</updated>
+    </task>
+    <task id="LOCAL-00010" summary="两个队列实现栈">
+      <created>1599653509637</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1599653509637</updated>
+    </task>
+    <task id="LOCAL-00011" summary="两个栈实现队列">
+      <created>1599655557559</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1599655557559</updated>
+    </task>
+    <task id="LOCAL-00012" summary="反转单向链表">
+      <created>1599656592403</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1599656592403</updated>
+    </task>
+    <task id="LOCAL-00013" summary="反转单向链表理解">
+      <created>1599656991096</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1599656991096</updated>
+    </task>
+    <task id="LOCAL-00014" summary="反转双向链表未理解">
+      <created>1599657871834</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1599657871834</updated>
+    </task>
+    <task id="LOCAL-00015" summary="反转双向链表未理解">
+      <created>1599659107325</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1599659107325</updated>
+    </task>
+    <task id="LOCAL-00016" summary="反转双向链表未理解">
+      <created>1599702764293</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1599702764293</updated>
+    </task>
+    <task id="LOCAL-00017" summary="合并链表">
+      <created>1599705301312</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1599705301312</updated>
+    </task>
+    <task id="LOCAL-00018" summary="合并链表">
+      <created>1599705523532</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1599705523532</updated>
+    </task>
+    <task id="LOCAL-00019" summary="合并链表">
+      <created>1599705573916</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1599705573916</updated>
+    </task>
+    <task id="LOCAL-00020" summary="二叉树">
+      <created>1599708162814</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1599708162814</updated>
+    </task>
+    <task id="LOCAL-00021" summary="前序遍历、中序遍历、后序遍历这个方法太牛逼了。。。。力扣颜色标记法题解下的某个Java实现的评论。">
+      <created>1599739465586</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1599739465586</updated>
+    </task>
+    <task id="LOCAL-00022" summary="前序遍历、中序遍历、后序遍历这个方法太牛逼了。。。。力扣颜色标记法题解下的某个Java实现的评论。">
+      <created>1599740908226</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1599740908226</updated>
+    </task>
+    <task id="LOCAL-00023" summary="前序遍历、中序遍历、后序遍历这个方法太牛逼了。。。。力扣颜色标记法题解下的某个Java实现的评论。">
+      <created>1599743555198</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1599743555198</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Main">
+      <created>1600087286153</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1600087286153</updated>
+    </task>
+    <task id="LOCAL-00025" summary="二叉树">
+      <created>1600312280249</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1600312280249</updated>
+    </task>
+    <task id="LOCAL-00026" summary="hw">
+      <created>1600351244652</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1600351244652</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,11 +393,25 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="111" />
-    <MESSAGE value="这里因为递归是压栈再出栈，所以tmp是先add 18，即先进后出" />
-    <MESSAGE value="del out" />
-    <MESSAGE value="两个链表的第一个公共节点。" />
-    <option name="LAST_COMMIT_MESSAGE" value="两个链表的第一个公共节点。" />
+    <MESSAGE value="寿司代码" />
+    <MESSAGE value="手撕代码" />
+    <MESSAGE value="二分查找" />
+    <MESSAGE value="k" />
+    <MESSAGE value="majorK" />
+    <MESSAGE value="majorK-2" />
+    <MESSAGE value="两个队列实现栈" />
+    <MESSAGE value="两个栈实现队列" />
+    <MESSAGE value="反转单向链表" />
+    <MESSAGE value="反转单向链表理解" />
+    <MESSAGE value="反转双向链表未理解" />
+    <MESSAGE value="合并链表" />
+    <MESSAGE value="前序遍历、中序遍历、后序遍历这个方法太牛逼了。。。。力扣颜色标记法题解下的某个Java实现的评论。" />
+    <MESSAGE value="Main" />
+    <MESSAGE value="二叉树" />
+    <MESSAGE value="hw" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2568" y="368" key="#Notifications" timestamp="1597722229298">
@@ -215,115 +422,120 @@
       <screen x="1920" y="0" width="1920" height="1170" />
     </state>
     <state x="2635" y="323" key="#Web_Browsers/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597735113375" />
-    <state x="133" y="15" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598256175277">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="133" y="15" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1598256175277" />
-    <state x="168" y="0" key="CommitChangelistDialog2" timestamp="1598284798394">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="168" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1598284798394" />
-    <state width="438" height="546" key="DebuggerActiveHint" timestamp="1598264670920">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="438" height="546" key="DebuggerActiveHint/0.0.1366.738@0.0.1366.738" timestamp="1598264670920" />
-    <state x="740" y="298" key="FileChooserDialogImpl" timestamp="1597835156075">
+    <state x="718" y="224" key="#com.intellij.ide.util.MemberChooser" timestamp="1600083093292">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
-    <state x="2660" y="298" key="FileChooserDialogImpl/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597737928882" />
-    <state x="740" y="298" key="FileChooserDialogImpl/0.0.1920.1170@0.0.1920.1170" timestamp="1597835156075" />
-    <state width="1313" height="221" key="GridCell.Tab.-1.bottom" timestamp="1598264377245">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="718" y="224" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1170@0.0.1920.1170" timestamp="1600083093292" />
+    <state x="637" y="309" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1598529923854">
+      <screen x="0" y="0" width="1920" height="1170" />
     </state>
-    <state width="1313" height="221" key="GridCell.Tab.-1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1598264377245" />
-    <state width="1313" height="221" key="GridCell.Tab.-1.center" timestamp="1598264377244">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="637" y="309" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1170@0.0.1920.1170" timestamp="1598529923854" />
+    <state x="2461" y="13" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1599721861423">
+      <screen x="1920" y="0" width="1920" height="1170" />
     </state>
-    <state width="1313" height="221" key="GridCell.Tab.-1.center/0.0.1366.738@0.0.1366.738" timestamp="1598264377244" />
-    <state width="1313" height="221" key="GridCell.Tab.-1.left" timestamp="1598264377244">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="2461" y="13" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599721861423" />
+    <state x="2660" y="298" key="FileChooserDialogImpl" timestamp="1599743581299">
+      <screen x="1920" y="0" width="1920" height="1170" />
     </state>
-    <state width="1313" height="221" key="GridCell.Tab.-1.left/0.0.1366.738@0.0.1366.738" timestamp="1598264377244" />
-    <state width="1313" height="221" key="GridCell.Tab.-1.right" timestamp="1598264377245">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="2660" y="298" key="FileChooserDialogImpl/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599743581299" />
+    <state x="740" y="298" key="FileChooserDialogImpl/0.0.1920.1170@0.0.1920.1170" timestamp="1598517500758" />
+    <state width="1867" height="367" key="GridCell.Tab.0.bottom" timestamp="1600353782421">
+      <screen x="1920" y="0" width="1920" height="1170" />
     </state>
-    <state width="1313" height="221" key="GridCell.Tab.-1.right/0.0.1366.738@0.0.1366.738" timestamp="1598264377245" />
-    <state width="1313" height="201" key="GridCell.Tab.0.bottom" timestamp="1598265277538">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1867" height="233" key="GridCell.Tab.0.bottom/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1600305695515" />
+    <state width="1867" height="367" key="GridCell.Tab.0.bottom/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1600353782421" />
+    <state width="1867" height="233" key="GridCell.Tab.0.bottom/0.0.1920.1170@0.0.1920.1170" timestamp="1600083132464" />
+    <state width="1867" height="367" key="GridCell.Tab.0.center" timestamp="1600353782421">
+      <screen x="1920" y="0" width="1920" height="1170" />
     </state>
-    <state width="1313" height="201" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1598265277538" />
-    <state width="1867" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597737786784" />
-    <state width="1313" height="201" key="GridCell.Tab.0.center" timestamp="1598265277538">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1867" height="233" key="GridCell.Tab.0.center/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1600305695515" />
+    <state width="1867" height="367" key="GridCell.Tab.0.center/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1600353782421" />
+    <state width="1867" height="233" key="GridCell.Tab.0.center/0.0.1920.1170@0.0.1920.1170" timestamp="1600083132464" />
+    <state width="1867" height="367" key="GridCell.Tab.0.left" timestamp="1600353782421">
+      <screen x="1920" y="0" width="1920" height="1170" />
     </state>
-    <state width="1313" height="201" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1598265277538" />
-    <state width="1867" height="344" key="GridCell.Tab.0.center/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597737786784" />
-    <state width="1313" height="201" key="GridCell.Tab.0.left" timestamp="1598265277538">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1867" height="233" key="GridCell.Tab.0.left/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1600305695515" />
+    <state width="1867" height="367" key="GridCell.Tab.0.left/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1600353782421" />
+    <state width="1867" height="233" key="GridCell.Tab.0.left/0.0.1920.1170@0.0.1920.1170" timestamp="1600083132464" />
+    <state width="1867" height="367" key="GridCell.Tab.0.right" timestamp="1600353782421">
+      <screen x="1920" y="0" width="1920" height="1170" />
     </state>
-    <state width="1313" height="201" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1598265277538" />
-    <state width="1867" height="344" key="GridCell.Tab.0.left/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597737786784" />
-    <state width="1313" height="201" key="GridCell.Tab.0.right" timestamp="1598265277538">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1867" height="233" key="GridCell.Tab.0.right/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1600305695515" />
+    <state width="1867" height="367" key="GridCell.Tab.0.right/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1600353782421" />
+    <state width="1867" height="233" key="GridCell.Tab.0.right/0.0.1920.1170@0.0.1920.1170" timestamp="1600083132464" />
+    <state width="1867" height="367" key="GridCell.Tab.1.bottom" timestamp="1600353782422">
+      <screen x="1920" y="0" width="1920" height="1170" />
     </state>
-    <state width="1313" height="201" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1598265277538" />
-    <state width="1867" height="344" key="GridCell.Tab.0.right/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597737786784" />
-    <state width="1313" height="221" key="GridCell.Tab.1.bottom" timestamp="1598264360394">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1867" height="367" key="GridCell.Tab.1.bottom/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1600353782422" />
+    <state width="1867" height="367" key="GridCell.Tab.1.center" timestamp="1600353782422">
+      <screen x="1920" y="0" width="1920" height="1170" />
     </state>
-    <state width="1313" height="221" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1598264360394" />
-    <state width="1867" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597737786784" />
-    <state width="1313" height="221" key="GridCell.Tab.1.center" timestamp="1598264360394">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1867" height="367" key="GridCell.Tab.1.center/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1600353782422" />
+    <state width="1867" height="367" key="GridCell.Tab.1.left" timestamp="1600353782422">
+      <screen x="1920" y="0" width="1920" height="1170" />
     </state>
-    <state width="1313" height="221" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1598264360394" />
-    <state width="1867" height="344" key="GridCell.Tab.1.center/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597737786784" />
-    <state width="1313" height="221" key="GridCell.Tab.1.left" timestamp="1598264360394">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1867" height="367" key="GridCell.Tab.1.left/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1600353782422" />
+    <state width="1867" height="367" key="GridCell.Tab.1.right" timestamp="1600353782422">
+      <screen x="1920" y="0" width="1920" height="1170" />
     </state>
-    <state width="1313" height="221" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1598264360394" />
-    <state width="1867" height="344" key="GridCell.Tab.1.left/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597737786784" />
-    <state width="1313" height="221" key="GridCell.Tab.1.right" timestamp="1598264360394">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="1313" height="221" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1598264360394" />
-    <state width="1867" height="344" key="GridCell.Tab.1.right/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597737786784" />
+    <state width="1867" height="367" key="GridCell.Tab.1.right/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1600353782422" />
     <state x="2503" y="287" width="862" height="595" key="NewModule_or_Project.wizard" timestamp="1597737635609">
       <screen x="1920" y="0" width="1920" height="1170" />
     </state>
     <state x="2503" y="287" width="862" height="595" key="NewModule_or_Project.wizard/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597737635609" />
-    <state x="134" y="0" key="SettingsEditor" timestamp="1598265035384">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="2264" y="112" key="SettingsEditor" timestamp="1599719906884">
+      <screen x="1920" y="0" width="1920" height="1170" />
     </state>
-    <state x="134" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1598265035384" />
     <state x="344" y="112" key="SettingsEditor/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1597734912894" />
-    <state x="2264" y="112" key="SettingsEditor/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597735084581" />
-    <state x="350" y="75" key="Vcs.Push.Dialog.v2" timestamp="1598284805722">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="350" y="75" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1598284805722" />
-    <state x="2472" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597574444916" />
-    <state x="552" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170@0.0.1920.1170" timestamp="1598187766555" />
-    <state x="2674" y="497" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597574441117">
+    <state x="2264" y="112" key="SettingsEditor/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599719906884" />
+    <state x="370" y="95" key="SettingsEditor/0.0.1920.1170@0.0.1920.1170" timestamp="1599292316827" />
+    <state x="2472" y="318" key="Vcs.Push.Dialog.v2" timestamp="1600351249128">
       <screen x="1920" y="0" width="1920" height="1170" />
     </state>
-    <state x="2674" y="497" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597574441117" />
-    <state x="2582" y="316" width="596" height="538" key="find.popup" timestamp="1597584607397">
+    <state x="552" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1600312282241" />
+    <state x="2472" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1600351249128" />
+    <state x="552" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170@0.0.1920.1170" timestamp="1600087290672" />
+    <state x="2674" y="497" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599656636639">
       <screen x="1920" y="0" width="1920" height="1170" />
     </state>
-    <state x="2582" y="316" width="596" height="538" key="find.popup/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597584607397" />
-    <state x="0" y="0" key="new project wizard" timestamp="1598283723153">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="2674" y="497" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599656636639" />
+    <state x="2582" y="316" width="717" height="650" key="find.popup" timestamp="1600350910528">
+      <screen x="1920" y="0" width="1920" height="1170" />
     </state>
-    <state x="0" y="0" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1598283723153" />
-    <state x="2078" y="117" key="new project wizard/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597738107152" />
+    <state x="2582" y="316" width="717" height="650" key="find.popup/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1600350910528" />
+    <state x="662" y="316" width="717" height="650" key="find.popup/0.0.1920.1170@0.0.1920.1170" timestamp="1599275725796" />
+    <state x="2078" y="117" key="new project wizard" timestamp="1599555028847">
+      <screen x="1920" y="0" width="1920" height="1170" />
+    </state>
+    <state x="2078" y="117" key="new project wizard/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599555028847" />
     <state x="2597" y="150" width="781" height="629" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1597722728965">
       <screen x="1920" y="0" width="1920" height="1170" />
     </state>
     <state x="2597" y="150" width="781" height="629" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597722728965" />
-    <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1598264885653">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="2452" y="269" width="840" height="1034" key="run.anything.popup" timestamp="1600345774020">
+      <screen x="1920" y="0" width="1920" height="1170" />
     </state>
-    <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1598264885653" />
+    <state x="532" y="269" width="840" height="1034" key="run.anything.popup/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1600305229708" />
+    <state x="2452" y="269" width="840" height="1034" key="run.anything.popup/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1600345774020" />
+    <state x="2459" y="135" width="840" height="1034" key="search.everywhere.popup" timestamp="1599705208904">
+      <screen x="1920" y="0" width="1920" height="1170" />
+    </state>
+    <state x="2459" y="135" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599705208904" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Scratch_Code/src/_02_数组问题/_1_找出数组中出现次数大于数组长度一半的数/FindMajority.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Scratch_Code/src/_02_数组问题/_1_找出数组中出现次数大于数组长度一半的数/FindMajority.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

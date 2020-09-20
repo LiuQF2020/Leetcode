@@ -1,0 +1,312 @@
+Index: Leetcode_JianzhiOffer/src/Test/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Test;\r\n\r\n\r\npublic class Main {\r\n    public static void main(String[] args) {\r\n\r\n    }\r\n}\r\n\r\n\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Leetcode_JianzhiOffer/src/Test/Main.java	(revision f9182d7074de526568061bc2d1f1b0c133d8b730)
++++ Leetcode_JianzhiOffer/src/Test/Main.java	(date 1599574705123)
+@@ -1,12 +1,13 @@
+ package Test;
+-
++import java.util.Arrays;
+ 
+ public class Main {
+-    public static void main(String[] args) {
+-
+-    }
+-}
+-
+-
+-
+-
++    public int[] getLeastNumbers(int[] arr, int k) {
++        Arrays.sort(arr);
++        int[] res = new int[k];
++        for (int i = 0; i < k; i++) {
++            res[i] = arr[i];
++        }
++        return res;
++    }
++}
+\ No newline at end of file
+Index: Leetcode_JianzhiOffer/src/_24_反转链表/Solution.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package _24_反转链表;\r\n\r\n/*\r\n定义一个函数，输入一个链表的头节点，反转该链表并输出反转后链表的头节点。\r\n\r\n示例:\r\n\r\n输入: 1->2->3->4->5->NULL\r\n输出: 5->4->3->2->1->NULL\r\n\r\n来源：力扣（LeetCode）\r\n链接：https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof\r\n著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。\r\n */\r\n\r\nimport java.util.Arrays;\r\nimport java.util.Stack;\r\n\r\npublic class Solution {\r\n    public ListNode reverse(ListNode root){\r\n        ListNode newHead = new ListNode(-1);\r\n        ListNode cur = root;\r\n        while(cur != null){\r\n            ListNode next = cur.next;\r\n            root.next = newHead.next;\r\n            newHead.next = cur;\r\n            cur = next;\r\n        }\r\n        return newHead.next;\r\n    }\r\n\r\n    public ListNode reverseRecu(ListNode root){\r\n        if(root.next == null){\r\n            return root;\r\n        }\r\n        ListNode next = root.next;\r\n        root.next = null;\r\n        ListNode newHead = reverseRecu(next);\r\n        next.next = root;\r\n        return newHead;\r\n    }\r\n\r\n    public ListNode reverseList(ListNode head) {\r\n        ListNode sentinel = new ListNode(0);\r\n        sentinel.next = head;\r\n        ListNode prev = sentinel, cur = head;\r\n\r\n        Stack<ListNode> stack = new Stack<>();\r\n        while (cur != null) {\r\n            stack.push(cur);\r\n            cur = cur.next;\r\n        }\r\n        int size = stack.size();\r\n        ListNode root = null;\r\n        if (size != 0) {\r\n            int[] arr = new int[size];\r\n            for (int i = 0; i < size; i++) {\r\n                arr[i] = stack.pop().val;\r\n            }\r\n\r\n            root = new ListNode(arr[0]);\r\n            ListNode other = root;\r\n            for (int i = 1; i < arr.length; i++) {\r\n                ListNode temp = new ListNode(arr[i]);\r\n                other.next = temp;\r\n                other = temp;\r\n            }\r\n        }\r\n        return root;\r\n    }\r\n\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Leetcode_JianzhiOffer/src/_24_反转链表/Solution.java	(revision f9182d7074de526568061bc2d1f1b0c133d8b730)
++++ Leetcode_JianzhiOffer/src/_24_反转链表/Solution.java	(date 1599574705123)
+@@ -29,15 +29,24 @@
+         return newHead.next;
+     }
+ 
+-    public ListNode reverseRecu(ListNode root){
+-        if(root.next == null){
+-            return root;
++    public ListNode reverseList1(ListNode head){
++        ListNode pre = null;
++        ListNode cur = head;
++        ListNode tmp = null;
++        while(cur != null) {
++            // 也可以使用“赋值”语句的理解方法来理解下面两句话
++
++            // cur.next在等号右，表示tmp记录下cur的下一个位置；
++            // 或者说将cur的下一个位置赋值给tmp;
++            tmp = cur.next;
++
++            // cur.next在等号左，表示cur指向pre；
++            cur.next = pre;
++
++            pre = cur;
++            cur = tmp;
+         }
+-        ListNode next = root.next;
+-        root.next = null;
+-        ListNode newHead = reverseRecu(next);
+-        next.next = root;
+-        return newHead;
++        return pre;
+     }
+ 
+     public ListNode reverseList(ListNode head) {
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"BranchesTreeState\">\r\n    <expand>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n    </expand>\r\n    <select />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8\" name=\"Default Changelist\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_35_复杂链表的复制/Solution.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_45_把数组排成最小的数/Solution.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"generalSettings\">\r\n      <MavenGeneralSettings>\r\n        <option name=\"mavenHome\" value=\"C:\\Program Files\\JetBrains\\IntelliJ IDEA 2020.1.1\\plugins\\maven\\lib\\maven3\" />\r\n      </MavenGeneralSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1gB3qfpuCH4u4vFJnTgoIQV4du9\" />\r\n  <component name=\"ProjectLevelVcsManager\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"autoscrollToSource\" value=\"true\" />\r\n    <option name=\"foldersAlwaysOnTop\" value=\"false\" />\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"ToolWindowFavorites.ShowToolbar\" value=\"false\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"aspect.path.notification.shown\" value=\"true\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/../Written_test\" />\r\n    <property name=\"project.structure.last.edited\" value=\"Project\" />\r\n    <property name=\"project.structure.proportion\" value=\"0.0\" />\r\n    <property name=\"project.structure.side.proportion\" value=\"0.0\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"org.jetbrains.plugins.github.ui.GithubSettingsConfigurable\" />\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.Solution (1)\">\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Test.Main\" />\r\n      <module name=\"Leetcode_JianzhiOffer\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"Test.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Solution (1)\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"_45_把数组排成最小的数.Solution\" />\r\n      <module name=\"Leetcode_JianzhiOffer\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"_45_把数组排成最小的数.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Solution\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"_06_从尾到头打印链表.Solution\" />\r\n      <module name=\"Leetcode_JianzhiOffer\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"_06_从尾到头打印链表.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"ArquillianTestNG\" factoryName=\"\" nameIsGenerated=\"true\">\r\n      <option name=\"arquillianRunConfiguration\">\r\n        <value>\r\n          <option name=\"containerStateName\" value=\"\" />\r\n        </value>\r\n      </option>\r\n      <option name=\"TEST_OBJECT\" value=\"CLASS\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <list>\r\n      <item itemvalue=\"Application.Main\" />\r\n      <item itemvalue=\"Application.Solution\" />\r\n      <item itemvalue=\"Application.Solution (1)\" />\r\n    </list>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.Solution (1)\" />\r\n        <item itemvalue=\"Application.Solution\" />\r\n        <item itemvalue=\"Application.Main\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1597574351866</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1597574351866</updated>\r\n      <workItem from=\"1597574353290\" duration=\"1814000\" />\r\n      <workItem from=\"1597578931165\" duration=\"2539000\" />\r\n      <workItem from=\"1597584005887\" duration=\"572000\" />\r\n      <workItem from=\"1597584587852\" duration=\"34000\" />\r\n      <workItem from=\"1597584842576\" duration=\"8000\" />\r\n      <workItem from=\"1597719682943\" duration=\"2108000\" />\r\n      <workItem from=\"1597722024191\" duration=\"4586000\" />\r\n      <workItem from=\"1597737893420\" duration=\"1579000\" />\r\n      <workItem from=\"1598187637747\" duration=\"756000\" />\r\n      <workItem from=\"1598278477760\" duration=\"5185000\" />\r\n      <workItem from=\"1598330634064\" duration=\"3678000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"111\">\r\n      <created>1598187688773</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1598187688773</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"这里因为递归是压栈再出栈，所以tmp是先add 18，即先进后出\">\r\n      <created>1598264941658</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1598264941658</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"del out\">\r\n      <created>1598265228087</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1598265228087</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"两个链表的第一个公共节点。\">\r\n      <created>1598284802391</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1598284802391</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"5\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"111\" />\r\n    <MESSAGE value=\"这里因为递归是压栈再出栈，所以tmp是先add 18，即先进后出\" />\r\n    <MESSAGE value=\"del out\" />\r\n    <MESSAGE value=\"两个链表的第一个公共节点。\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"两个链表的第一个公共节点。\" />\r\n  </component>\r\n  <component name=\"WindowStateProjectService\">\r\n    <state x=\"2568\" y=\"368\" key=\"#Notifications\" timestamp=\"1597722229298\">\r\n      <screen x=\"1920\" y=\"0\" width=\"1920\" height=\"1170\" />\r\n    </state>\r\n    <state x=\"2568\" y=\"368\" key=\"#Notifications/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170\" timestamp=\"1597722229298\" />\r\n    <state x=\"2635\" y=\"323\" key=\"#Web_Browsers\" timestamp=\"1597735113375\">\r\n      <screen x=\"1920\" y=\"0\" width=\"1920\" height=\"1170\" />\r\n    </state>\r\n    <state x=\"2635\" y=\"323\" key=\"#Web_Browsers/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170\" timestamp=\"1597735113375\" />\r\n    <state x=\"133\" y=\"15\" key=\"#com.intellij.execution.impl.EditConfigurationsDialog\" timestamp=\"1598256175277\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"738\" />\r\n    </state>\r\n    <state x=\"133\" y=\"15\" key=\"#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738\" timestamp=\"1598256175277\" />\r\n    <state x=\"168\" y=\"0\" key=\"CommitChangelistDialog2\" timestamp=\"1598284798394\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"738\" />\r\n    </state>\r\n    <state x=\"168\" y=\"0\" key=\"CommitChangelistDialog2/0.0.1366.738@0.0.1366.738\" timestamp=\"1598284798394\" />\r\n    <state width=\"438\" height=\"546\" key=\"DebuggerActiveHint\" timestamp=\"1598264670920\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"738\" />\r\n    </state>\r\n    <state width=\"438\" height=\"546\" key=\"DebuggerActiveHint/0.0.1366.738@0.0.1366.738\" timestamp=\"1598264670920\" />\r\n    <state x=\"740\" y=\"298\" key=\"FileChooserDialogImpl\" timestamp=\"1597835156075\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1170\" />\r\n    </state>\r\n    <state x=\"2660\" y=\"298\" key=\"FileChooserDialogImpl/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170\" timestamp=\"1597737928882\" />\r\n    <state x=\"740\" y=\"298\" key=\"FileChooserDialogImpl/0.0.1920.1170@0.0.1920.1170\" timestamp=\"1597835156075\" />\r\n    <state width=\"1313\" height=\"221\" key=\"GridCell.Tab.-1.bottom\" timestamp=\"1598264377245\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"738\" />\r\n    </state>\r\n    <state width=\"1313\" height=\"221\" key=\"GridCell.Tab.-1.bottom/0.0.1366.738@0.0.1366.738\" timestamp=\"1598264377245\" />\r\n    <state width=\"1313\" height=\"221\" key=\"GridCell.Tab.-1.center\" timestamp=\"1598264377244\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"738\" />\r\n    </state>\r\n    <state width=\"1313\" height=\"221\" key=\"GridCell.Tab.-1.center/0.0.1366.738@0.0.1366.738\" timestamp=\"1598264377244\" />\r\n    <state width=\"1313\" height=\"221\" key=\"GridCell.Tab.-1.left\" timestamp=\"1598264377244\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"738\" />\r\n    </state>\r\n    <state width=\"1313\" height=\"221\" key=\"GridCell.Tab.-1.left/0.0.1366.738@0.0.1366.738\" timestamp=\"1598264377244\" />\r\n    <state width=\"1313\" height=\"221\" key=\"GridCell.Tab.-1.right\" timestamp=\"1598264377245\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"738\" />\r\n    </state>\r\n    <state width=\"1313\" height=\"221\" key=\"GridCell.Tab.-1.right/0.0.1366.738@0.0.1366.738\" timestamp=\"1598264377245\" />\r\n    <state width=\"1313\" height=\"201\" key=\"GridCell.Tab.0.bottom\" timestamp=\"1598265277538\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"738\" />\r\n    </state>\r\n    <state width=\"1313\" height=\"201\" key=\"GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738\" timestamp=\"1598265277538\" />\r\n    <state width=\"1867\" height=\"344\" key=\"GridCell.Tab.0.bottom/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170\" timestamp=\"1597737786784\" />\r\n    <state width=\"1313\" height=\"201\" key=\"GridCell.Tab.0.center\" timestamp=\"1598265277538\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"738\" />\r\n    </state>\r\n    <state width=\"1313\" height=\"201\" key=\"GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738\" timestamp=\"1598265277538\" />\r\n    <state width=\"1867\" height=\"344\" key=\"GridCell.Tab.0.center/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170\" timestamp=\"1597737786784\" />\r\n    <state width=\"1313\" height=\"201\" key=\"GridCell.Tab.0.left\" timestamp=\"1598265277538\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"738\" />\r\n    </state>\r\n    <state width=\"1313\" height=\"201\" key=\"GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738\" timestamp=\"1598265277538\" />\r\n    <state width=\"1867\" height=\"344\" key=\"GridCell.Tab.0.left/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170\" timestamp=\"1597737786784\" />\r\n    <state width=\"1313\" height=\"201\" key=\"GridCell.Tab.0.right\" timestamp=\"1598265277538\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"738\" />\r\n    </state>\r\n    <state width=\"1313\" height=\"201\" key=\"GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738\" timestamp=\"1598265277538\" />\r\n    <state width=\"1867\" height=\"344\" key=\"GridCell.Tab.0.right/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170\" timestamp=\"1597737786784\" />\r\n    <state width=\"1313\" height=\"221\" key=\"GridCell.Tab.1.bottom\" timestamp=\"1598264360394\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"738\" />\r\n    </state>\r\n    <state width=\"1313\" height=\"221\" key=\"GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738\" timestamp=\"1598264360394\" />\r\n    <state width=\"1867\" height=\"344\" key=\"GridCell.Tab.1.bottom/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170\" timestamp=\"1597737786784\" />\r\n    <state width=\"1313\" height=\"221\" key=\"GridCell.Tab.1.center\" timestamp=\"1598264360394\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"738\" />\r\n    </state>\r\n    <state width=\"1313\" height=\"221\" key=\"GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738\" timestamp=\"1598264360394\" />\r\n    <state width=\"1867\" height=\"344\" key=\"GridCell.Tab.1.center/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170\" timestamp=\"1597737786784\" />\r\n    <state width=\"1313\" height=\"221\" key=\"GridCell.Tab.1.left\" timestamp=\"1598264360394\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"738\" />\r\n    </state>\r\n    <state width=\"1313\" height=\"221\" key=\"GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738\" timestamp=\"1598264360394\" />\r\n    <state width=\"1867\" height=\"344\" key=\"GridCell.Tab.1.left/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170\" timestamp=\"1597737786784\" />\r\n    <state width=\"1313\" height=\"221\" key=\"GridCell.Tab.1.right\" timestamp=\"1598264360394\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"738\" />\r\n    </state>\r\n    <state width=\"1313\" height=\"221\" key=\"GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738\" timestamp=\"1598264360394\" />\r\n    <state width=\"1867\" height=\"344\" key=\"GridCell.Tab.1.right/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170\" timestamp=\"1597737786784\" />\r\n    <state x=\"2503\" y=\"287\" width=\"862\" height=\"595\" key=\"NewModule_or_Project.wizard\" timestamp=\"1597737635609\">\r\n      <screen x=\"1920\" y=\"0\" width=\"1920\" height=\"1170\" />\r\n    </state>\r\n    <state x=\"2503\" y=\"287\" width=\"862\" height=\"595\" key=\"NewModule_or_Project.wizard/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170\" timestamp=\"1597737635609\" />\r\n    <state x=\"134\" y=\"0\" key=\"SettingsEditor\" timestamp=\"1598265035384\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"738\" />\r\n    </state>\r\n    <state x=\"134\" y=\"0\" key=\"SettingsEditor/0.0.1366.738@0.0.1366.738\" timestamp=\"1598265035384\" />\r\n    <state x=\"344\" y=\"112\" key=\"SettingsEditor/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170\" timestamp=\"1597734912894\" />\r\n    <state x=\"2264\" y=\"112\" key=\"SettingsEditor/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170\" timestamp=\"1597735084581\" />\r\n    <state x=\"350\" y=\"75\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1598284805722\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"738\" />\r\n    </state>\r\n    <state x=\"350\" y=\"75\" key=\"Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738\" timestamp=\"1598284805722\" />\r\n    <state x=\"2472\" y=\"318\" key=\"Vcs.Push.Dialog.v2/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170\" timestamp=\"1597574444916\" />\r\n    <state x=\"552\" y=\"318\" key=\"Vcs.Push.Dialog.v2/0.0.1920.1170@0.0.1920.1170\" timestamp=\"1598187766555\" />\r\n    <state x=\"2674\" y=\"497\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2\" timestamp=\"1597574441117\">\r\n      <screen x=\"1920\" y=\"0\" width=\"1920\" height=\"1170\" />\r\n    </state>\r\n    <state x=\"2674\" y=\"497\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170\" timestamp=\"1597574441117\" />\r\n    <state x=\"2582\" y=\"316\" width=\"596\" height=\"538\" key=\"find.popup\" timestamp=\"1597584607397\">\r\n      <screen x=\"1920\" y=\"0\" width=\"1920\" height=\"1170\" />\r\n    </state>\r\n    <state x=\"2582\" y=\"316\" width=\"596\" height=\"538\" key=\"find.popup/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170\" timestamp=\"1597584607397\" />\r\n    <state x=\"0\" y=\"0\" key=\"new project wizard\" timestamp=\"1598283723153\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"738\" />\r\n    </state>\r\n    <state x=\"0\" y=\"0\" key=\"new project wizard/0.0.1366.738@0.0.1366.738\" timestamp=\"1598283723153\" />\r\n    <state x=\"2078\" y=\"117\" key=\"new project wizard/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170\" timestamp=\"1597738107152\" />\r\n    <state x=\"2597\" y=\"150\" width=\"781\" height=\"629\" key=\"org.intellij.images.editor.actions.BackgroundImageDialog\" timestamp=\"1597722728965\">\r\n      <screen x=\"1920\" y=\"0\" width=\"1920\" height=\"1170\" />\r\n    </state>\r\n    <state x=\"2597\" y=\"150\" width=\"781\" height=\"629\" key=\"org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170\" timestamp=\"1597722728965\" />\r\n    <state x=\"262\" y=\"-1\" width=\"840\" height=\"1034\" key=\"search.everywhere.popup\" timestamp=\"1598264885653\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"738\" />\r\n    </state>\r\n    <state x=\"262\" y=\"-1\" width=\"840\" height=\"1034\" key=\"search.everywhere.popup/0.0.1366.738@0.0.1366.738\" timestamp=\"1598264885653\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision f9182d7074de526568061bc2d1f1b0c133d8b730)
++++ .idea/workspace.xml	(date 1599574705092)
+@@ -20,9 +20,13 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="">
+-      <change afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_35_复杂链表的复制/Solution.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_45_把数组排成最小的数/Solution.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_18_删除链表的节点/ListNode.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_18_删除链表的节点/Solution.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_49_丑数/Solution.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Leetcode_JianzhiOffer/Leetcode_JianzhiOffer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/Leetcode_JianzhiOffer.iml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/Test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/Test/Main.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_24_反转链表/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_24_反转链表/Solution.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -61,78 +65,12 @@
+     <property name="ToolWindowFavorites.ShowToolbar" value="false" />
+     <property name="WebServerToolWindowFactoryState" value="false" />
+     <property name="aspect.path.notification.shown" value="true" />
+-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Written_test" />
++    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Java/repos/Structure_Algrithm/coding-207" />
+     <property name="project.structure.last.edited" value="Project" />
+     <property name="project.structure.proportion" value="0.0" />
+     <property name="project.structure.side.proportion" value="0.0" />
+     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+   </component>
+-  <component name="RunManager" selected="Application.Solution (1)">
+-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="Test.Main" />
+-      <module name="Leetcode_JianzhiOffer" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="Test.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="_45_把数组排成最小的数.Solution" />
+-      <module name="Leetcode_JianzhiOffer" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="_45_把数组排成最小的数.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="_06_从尾到头打印链表.Solution" />
+-      <module name="Leetcode_JianzhiOffer" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="_06_从尾到头打印链表.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+-      <option name="arquillianRunConfiguration">
+-        <value>
+-          <option name="containerStateName" value="" />
+-        </value>
+-      </option>
+-      <option name="TEST_OBJECT" value="CLASS" />
+-      <properties />
+-      <listeners />
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+-    <list>
+-      <item itemvalue="Application.Main" />
+-      <item itemvalue="Application.Solution" />
+-      <item itemvalue="Application.Solution (1)" />
+-    </list>
+-    <recent_temporary>
+-      <list>
+-        <item itemvalue="Application.Solution (1)" />
+-        <item itemvalue="Application.Solution" />
+-        <item itemvalue="Application.Main" />
+-      </list>
+-    </recent_temporary>
+-  </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+@@ -152,6 +90,11 @@
+       <workItem from="1598187637747" duration="756000" />
+       <workItem from="1598278477760" duration="5185000" />
+       <workItem from="1598330634064" duration="3678000" />
++      <workItem from="1598448642902" duration="654000" />
++      <workItem from="1598538432224" duration="1694000" />
++      <workItem from="1598788243396" duration="1230000" />
++      <workItem from="1599127787332" duration="6283000" />
++      <workItem from="1599236898860" duration="1287000" />
+     </task>
+     <task id="LOCAL-00001" summary="111">
+       <created>1598187688773</created>
+@@ -215,10 +158,11 @@
+       <screen x="1920" y="0" width="1920" height="1170" />
+     </state>
+     <state x="2635" y="323" key="#Web_Browsers/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597735113375" />
+-    <state x="133" y="15" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598256175277">
+-      <screen x="0" y="0" width="1366" height="738" />
++    <state x="150" y="17" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598542216774">
++      <screen x="0" y="0" width="1536" height="834" />
+     </state>
+     <state x="133" y="15" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1598256175277" />
++    <state x="150" y="17" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1598542216774" />
+     <state x="168" y="0" key="CommitChangelistDialog2" timestamp="1598284798394">
+       <screen x="0" y="0" width="1366" height="738" />
+     </state>
+@@ -227,9 +171,10 @@
+       <screen x="0" y="0" width="1366" height="738" />
+     </state>
+     <state width="438" height="546" key="DebuggerActiveHint/0.0.1366.738@0.0.1366.738" timestamp="1598264670920" />
+-    <state x="740" y="298" key="FileChooserDialogImpl" timestamp="1597835156075">
+-      <screen x="0" y="0" width="1920" height="1170" />
++    <state x="592" y="212" key="FileChooserDialogImpl" timestamp="1599135698985">
++      <screen x="0" y="0" width="1536" height="834" />
+     </state>
++    <state x="592" y="212" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1599135698985" />
+     <state x="2660" y="298" key="FileChooserDialogImpl/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597737928882" />
+     <state x="740" y="298" key="FileChooserDialogImpl/0.0.1920.1170@0.0.1920.1170" timestamp="1597835156075" />
+     <state width="1313" height="221" key="GridCell.Tab.-1.bottom" timestamp="1598264377245">
+@@ -304,9 +249,10 @@
+     <state x="350" y="75" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1598284805722" />
+     <state x="2472" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597574444916" />
+     <state x="552" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170@0.0.1920.1170" timestamp="1598187766555" />
+-    <state x="2674" y="497" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597574441117">
+-      <screen x="1920" y="0" width="1920" height="1170" />
++    <state x="603" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598788249064">
++      <screen x="0" y="0" width="1536" height="834" />
+     </state>
++    <state x="603" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1598788249064" />
+     <state x="2674" y="497" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597574441117" />
+     <state x="2582" y="316" width="596" height="538" key="find.popup" timestamp="1597584607397">
+       <screen x="1920" y="0" width="1920" height="1170" />
+@@ -321,9 +267,10 @@
+       <screen x="1920" y="0" width="1920" height="1170" />
+     </state>
+     <state x="2597" y="150" width="781" height="629" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597722728965" />
+-    <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1598264885653">
+-      <screen x="0" y="0" width="1366" height="738" />
++    <state x="295" y="-1" width="945" height="1169" key="search.everywhere.popup" timestamp="1599139769648">
++      <screen x="0" y="0" width="1536" height="834" />
+     </state>
+     <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1598264885653" />
++    <state x="295" y="-1" width="945" height="1169" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1599139769648" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: Leetcode_JianzhiOffer/Leetcode_JianzhiOffer.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"JAVA_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\" inherit-compiler-output=\"true\">\r\n    <exclude-output />\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src\" isTestSource=\"false\" />\r\n    </content>\r\n    <orderEntry type=\"inheritedJdk\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Leetcode_JianzhiOffer/Leetcode_JianzhiOffer.iml	(revision f9182d7074de526568061bc2d1f1b0c133d8b730)
++++ Leetcode_JianzhiOffer/Leetcode_JianzhiOffer.iml	(date 1599574705092)
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <module type="JAVA_MODULE" version="4">
+-  <component name="NewModuleRootManager" inherit-compiler-output="true">
++  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="true">
+     <exclude-output />
+     <content url="file://$MODULE_DIR$">
+       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+Index: Leetcode_JianzhiOffer/src/_49_丑数/Solution.java
+===================================================================
+--- Leetcode_JianzhiOffer/src/_49_丑数/Solution.java	(date 0)
++++ Leetcode_JianzhiOffer/src/_49_丑数/Solution.java	(date 0)
+@@ -0,0 +1,5 @@
++package _49_丑数;
++
++public class Solution {
++    
++}
+Index: Leetcode_JianzhiOffer/src/_18_删除链表的节点/ListNode.java
+===================================================================
+--- Leetcode_JianzhiOffer/src/_18_删除链表的节点/ListNode.java	(date 0)
++++ Leetcode_JianzhiOffer/src/_18_删除链表的节点/ListNode.java	(date 0)
+@@ -0,0 +1,11 @@
++package _18_删除链表的节点;
++
++
++public class ListNode {
++    int val;
++    ListNode next;
++
++    ListNode(int x) {
++        val = x;
++    }
++}
+Index: Leetcode_JianzhiOffer/src/_18_删除链表的节点/Solution.java
+===================================================================
+--- Leetcode_JianzhiOffer/src/_18_删除链表的节点/Solution.java	(date 0)
++++ Leetcode_JianzhiOffer/src/_18_删除链表的节点/Solution.java	(date 0)
+@@ -0,0 +1,17 @@
++package _18_删除链表的节点;
++
++class Solution {
++    public ListNode deleteNode(ListNode head, int val) {
++        if(head.val == val) return head.next;
++
++        ListNode pre = head, cur = head.next;
++        while(cur != null && cur.val != val) {
++            pre = cur;  // 理解为往后移，而不是理解为赋值，更好些。
++            cur = cur.next;
++        }
++
++        if(cur != null) pre.next = cur.next;
++
++        return head;
++    }
++}
+\ No newline at end of file

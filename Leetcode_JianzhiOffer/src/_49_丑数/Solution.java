@@ -1,9 +1,9 @@
 package _49_丑数;
 
 class Solution {
-    public int nthUglyNumber(int index) {
-        if (index < 7)    //1-6都为丑数
-            return index;
+    public static int nthUglyNumber(int index) {
+        // if (index < 7)    //1-6都为丑数
+           // return index;
 
         int[] nums = new int[index];
         nums[0] = 1;
@@ -19,5 +19,9 @@ class Solution {
             if (nums[i] == nums[t5] * 5) t5++;
         }
         return nums[index - 1];
+    }
+
+    public static void main(String[] args) {
+        nthUglyNumber(13);
     }
 }

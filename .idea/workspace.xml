@@ -20,19 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode_Problems/Leetcode_Problems.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode_Problems/src/_35_搜索插入位置/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_20_15_21_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_20_15_21__Default_Changelist_.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_50_第一个只出现一次的字符/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_21_23_30_[Default_Changelist]/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_21_23_30_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_21_23_30__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_54_[Default_Changelist]/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_54_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_54__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_23_12_12_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_23_12_12__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_23_8_12_[Default_Changelist]/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_23_8_12_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_23_8_12__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/Test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/Test/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/Test/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/Test/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_49_丑数.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode_JianzhiOffer/Test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode_JianzhiOffer/Test/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode_JianzhiOffer/Test/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode_JianzhiOffer/Test/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode_JianzhiOffer/_45_把数组排成最小的数/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode_JianzhiOffer/_45_把数组排成最小的数/Solution.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,13 +152,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -213,7 +215,8 @@
       <workItem from="1600859668968" duration="4819000" />
       <workItem from="1601031580626" duration="5704000" />
       <workItem from="1601103027432" duration="20000" />
-      <workItem from="1601636711620" duration="965000" />
+      <workItem from="1601636711620" duration="2046000" />
+      <workItem from="1601639500043" duration="287000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1598187688773</created>
@@ -418,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600732089836</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="力扣">
+      <created>1601637966034</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1601637966034</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,7 +467,8 @@
     <MESSAGE value="hw" />
     <MESSAGE value="无返回值的层序遍历" />
     <MESSAGE value="回文" />
-    <option name="LAST_COMMIT_MESSAGE" value="回文" />
+    <MESSAGE value="力扣" />
+    <option name="LAST_COMMIT_MESSAGE" value="力扣" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2568" y="368" key="#Notifications" timestamp="1597722229298">
@@ -480,36 +491,40 @@
       <screen x="1920" y="0" width="1920" height="1170" />
     </state>
     <state x="2461" y="13" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599721861423" />
+    <state x="99" y="0" key="CommitChangelistDialog2" timestamp="1601637961382">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="99" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1601637961382" />
     <state x="2660" y="298" key="FileChooserDialogImpl" timestamp="1599743581299">
       <screen x="1920" y="0" width="1920" height="1170" />
     </state>
     <state x="2660" y="298" key="FileChooserDialogImpl/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599743581299" />
     <state x="740" y="298" key="FileChooserDialogImpl/0.0.1920.1170@0.0.1920.1170" timestamp="1598517500758" />
-    <state width="1313" height="220" key="GridCell.Tab.0.bottom" timestamp="1601637685885">
+    <state width="1313" height="142" key="GridCell.Tab.0.bottom" timestamp="1601638146712">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1313" height="220" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1601637685885" />
+    <state width="1313" height="142" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1601638146712" />
     <state width="1867" height="233" key="GridCell.Tab.0.bottom/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1600305695515" />
     <state width="1867" height="390" key="GridCell.Tab.0.bottom/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1600577915321" />
     <state width="1867" height="367" key="GridCell.Tab.0.bottom/0.0.1920.1170@0.0.1920.1170" timestamp="1600585956823" />
-    <state width="1313" height="220" key="GridCell.Tab.0.center" timestamp="1601637685885">
+    <state width="1313" height="142" key="GridCell.Tab.0.center" timestamp="1601638146711">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1313" height="220" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1601637685885" />
+    <state width="1313" height="142" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1601638146711" />
     <state width="1867" height="233" key="GridCell.Tab.0.center/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1600305695515" />
     <state width="1867" height="390" key="GridCell.Tab.0.center/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1600577915321" />
     <state width="1867" height="367" key="GridCell.Tab.0.center/0.0.1920.1170@0.0.1920.1170" timestamp="1600585956823" />
-    <state width="1313" height="220" key="GridCell.Tab.0.left" timestamp="1601637685885">
+    <state width="1313" height="142" key="GridCell.Tab.0.left" timestamp="1601638146711">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1313" height="220" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1601637685885" />
+    <state width="1313" height="142" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1601638146711" />
     <state width="1867" height="233" key="GridCell.Tab.0.left/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1600305695515" />
     <state width="1867" height="390" key="GridCell.Tab.0.left/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1600577915321" />
     <state width="1867" height="367" key="GridCell.Tab.0.left/0.0.1920.1170@0.0.1920.1170" timestamp="1600585956823" />
-    <state width="1313" height="220" key="GridCell.Tab.0.right" timestamp="1601637685885">
+    <state width="1313" height="142" key="GridCell.Tab.0.right" timestamp="1601638146712">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1313" height="220" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1601637685885" />
+    <state width="1313" height="142" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1601638146712" />
     <state width="1867" height="233" key="GridCell.Tab.0.right/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1600305695515" />
     <state width="1867" height="390" key="GridCell.Tab.0.right/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1600577915321" />
     <state width="1867" height="367" key="GridCell.Tab.0.right/0.0.1920.1170@0.0.1920.1170" timestamp="1600585956823" />
@@ -533,6 +548,14 @@
     </state>
     <state width="1867" height="367" key="GridCell.Tab.1.right/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1600571372697" />
     <state width="1867" height="367" key="GridCell.Tab.1.right/0.0.1920.1170@0.0.1920.1170" timestamp="1600585956823" />
+    <state x="129" y="56" key="MergeDialog" timestamp="1601638120733">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="129" y="56" key="MergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1601638120733" />
+    <state x="232" y="73" key="MultipleFileMergeDialog" timestamp="1601638130192">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="232" y="73" key="MultipleFileMergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1601638130192" />
     <state x="2503" y="287" width="862" height="595" key="NewModule_or_Project.wizard" timestamp="1597737635609">
       <screen x="1920" y="0" width="1920" height="1170" />
     </state>
@@ -543,10 +566,10 @@
     <state x="344" y="112" key="SettingsEditor/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1597734912894" />
     <state x="2264" y="112" key="SettingsEditor/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599719906884" />
     <state x="370" y="95" key="SettingsEditor/0.0.1920.1170@0.0.1920.1170" timestamp="1599292316827" />
-    <state x="350" y="75" key="Vcs.Push.Dialog.v2" timestamp="1600786207297">
+    <state x="350" y="75" key="Vcs.Push.Dialog.v2" timestamp="1601638153384">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="350" y="75" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1600786207297" />
+    <state x="350" y="75" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1601638153384" />
     <state x="552" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1600312282241" />
     <state x="2472" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1600562515379" />
     <state x="552" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170@0.0.1920.1170" timestamp="1600732093916" />

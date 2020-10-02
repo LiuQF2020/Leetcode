@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Leetcode_Daily/Leetcode_Daily.iml" filepath="$PROJECT_DIR$/Leetcode_Daily/Leetcode_Daily.iml" />
       <module fileurl="file://$PROJECT_DIR$/Leetcode_Hot_100/Leetcode_Hot_100.iml" filepath="$PROJECT_DIR$/Leetcode_Hot_100/Leetcode_Hot_100.iml" />
       <module fileurl="file://$PROJECT_DIR$/Leetcode_JianzhiOffer/Leetcode_JianzhiOffer.iml" filepath="$PROJECT_DIR$/Leetcode_JianzhiOffer/Leetcode_JianzhiOffer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Leetcode_Problems/Leetcode_Problems.iml" filepath="$PROJECT_DIR$/Leetcode_Problems/Leetcode_Problems.iml" />
       <module fileurl="file://$PROJECT_DIR$/Scratch_Code/Scratch_Code.iml" filepath="$PROJECT_DIR$/Scratch_Code/Scratch_Code.iml" />
     </modules>
   </component>

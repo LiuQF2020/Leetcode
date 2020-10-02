@@ -1,22 +1,14 @@
 package Test;
+
+import java.io.*;
 import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
 
 public class Main {
     public static void main(String[] args) {
-        List<String> name = new ArrayList<>();
-        List<Number> age = new ArrayList<>();
-        List<Number> number = new ArrayList<>();
-
-
-        name.add("icon");
-        age.add(18);
-        number.add(314);
-
-        getUperNumber(age);
-        getUperNumber(number);
-    }
-
-    public static void getUperNumber(List<? extends Number> data) {
-        System.out.println("data:" + data.get(0));
+        int[] arr = new int[] {0, 2};
+        System.out.println(Arrays.toString(arr));
     }
 }

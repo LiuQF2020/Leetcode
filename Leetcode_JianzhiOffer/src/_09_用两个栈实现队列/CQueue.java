@@ -25,30 +25,30 @@ package _09_用两个栈实现队列;
 import java.util.LinkedList;
 
 public class CQueue {
-    LinkedList<Integer> A, B;
+    LinkedList<Integer> stackPush, stackPop;
 
     public CQueue() {
-        A = new LinkedList<>();
-        B = new LinkedList<>();
+        stackPush = new LinkedList<>();
+        stackPop = new LinkedList<>();
     }
 
     public void appendTail(int value) {
-        A.addLast(value);
+        stackPush.addLast(value);
     }
 
     public int deleteHead() {
-        if (!B.isEmpty()) {
-            return B.removeLast();
+        if (!stackPop.isEmpty()) {
+            return stackPop.removeLast();
         }
 
-        if (A.isEmpty()) {
+        if (stackPush.isEmpty()) {
             return -1;
         }
 
-        while (!A.isEmpty()) {
-            B.addLast(A.removeLast());
+        while (!stackPush.isEmpty()) {
+            stackPop.addLast(stackPush.removeLast());
         }
-        return B.removeLast();
+        return stackPop.removeLast();
 
     }
 }

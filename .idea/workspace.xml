@@ -20,16 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="1">
-      <change afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_62_圆圈中最后剩下的数字/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_14_20_41__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_14_20_41__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_20_15_19__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_20_15_19__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_8_22_18__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_8_22_18__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_8_22_18__Default_Changelist_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_8_22_18__Default_Changelist_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_9_12_03__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_9_12_03__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_9_12_03__Default_Changelist_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_9_12_03__Default_Changelist_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/Test/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/Test/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode_JianzhiOffer/Test/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode_JianzhiOffer/Test/Solution.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +67,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.30034524" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -210,6 +203,7 @@
       <workItem from="1601476264085" duration="602000" />
       <workItem from="1601563530043" duration="380000" />
       <workItem from="1601706432513" duration="1411000" />
+      <workItem from="1601712068454" duration="678000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1598187688773</created>
@@ -537,9 +531,10 @@
       <screen x="1920" y="0" width="1920" height="1170" />
     </state>
     <state x="2503" y="287" width="862" height="595" key="NewModule_or_Project.wizard/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597737635609" />
-    <state x="2264" y="112" key="SettingsEditor" timestamp="1599719906884">
-      <screen x="1920" y="0" width="1920" height="1170" />
+    <state x="275" y="0" key="SettingsEditor" timestamp="1601712393160">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
+    <state x="275" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1601712393160" />
     <state x="344" y="112" key="SettingsEditor/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1597734912894" />
     <state x="2264" y="112" key="SettingsEditor/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599719906884" />
     <state x="370" y="95" key="SettingsEditor/0.0.1920.1170@0.0.1920.1170" timestamp="1599292316827" />
@@ -559,9 +554,10 @@
     </state>
     <state x="2582" y="316" width="717" height="650" key="find.popup/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1600350910528" />
     <state x="662" y="316" width="717" height="650" key="find.popup/0.0.1920.1170@0.0.1920.1170" timestamp="1599275725796" />
-    <state x="2078" y="117" key="new project wizard" timestamp="1599555028847">
-      <screen x="1920" y="0" width="1920" height="1170" />
+    <state x="401" y="41" key="new project wizard" timestamp="1601712503797">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
+    <state x="401" y="41" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1601712503797" />
     <state x="2078" y="117" key="new project wizard/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599555028847" />
     <state x="2597" y="150" width="781" height="629" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1597722728965">
       <screen x="1920" y="0" width="1920" height="1170" />

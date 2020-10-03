@@ -1,18 +1,9 @@
 package Test;
 
-
-import java.util.ArrayList;
-import java.util.List;
-
 public class Solution {
-    private long MidFactor(long val) {
-        List<String> lists = new ArrayList<>();
-        for(int i = 1; i <= val; i++){
-            if(val % i == 0){
-                lists.add(String.valueOf(i));
-            }
-        }
-
-        return Long.parseLong(lists.get((lists.size() - 1)/2));
+    public static void main(String[] args) {
+        System.out.println(4 + " " + 1);
+        System.out.println(2 + " " + 4);
+        System.out.println(3 + " " + 5);
     }
 }

@@ -19,14 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="1">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nowcoder_Interview_Hot/src/Top2_NC93_设计LRU缓存结构/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nowcoder_Interview_Hot/src/Top3_NC105_二分查找/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nowcoder_Interview_Hot/src/Top4_NC45_实现二叉树先序中序和后序遍历/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nowcoder_Interview_Hot/src/Top1_NC78_反转链表/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/Nowcoder_Interview_Hot/src/Top1_NC78_反转链表/Solution.java" afterDir="false" />
-    </list>
+    <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -198,6 +191,7 @@
       <workItem from="1601712068454" duration="678000" />
       <workItem from="1601712881276" duration="2758000" />
       <workItem from="1601723265512" duration="8079000" />
+      <workItem from="1601732940069" duration="28000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1598187688773</created>
@@ -409,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601712893659</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="1">
+      <created>1601732953346</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1601732953346</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -540,10 +541,10 @@
     <state x="344" y="112" key="SettingsEditor/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1597734912894" />
     <state x="2264" y="112" key="SettingsEditor/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599719906884" />
     <state x="370" y="95" key="SettingsEditor/0.0.1920.1170@0.0.1920.1170" timestamp="1599292316827" />
-    <state x="442" y="227" key="Vcs.Push.Dialog.v2" timestamp="1601712896969">
+    <state x="442" y="227" key="Vcs.Push.Dialog.v2" timestamp="1601732956422">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="442" y="227" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1601712896969" />
+    <state x="442" y="227" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1601732956422" />
     <state x="552" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1600312282241" />
     <state x="2472" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1600562515379" />
     <state x="552" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170@0.0.1920.1170" timestamp="1600732093916" />

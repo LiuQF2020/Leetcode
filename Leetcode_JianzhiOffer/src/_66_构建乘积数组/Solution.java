@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class Solution {
     public static int[] constructArr(int[] a) {
+        if (a.length == 0)  return new int[] {};
         int[] res = new int[a.length];
         int[] left = new int[a.length];
         left[0] = 1;

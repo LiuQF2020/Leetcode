@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="和为s">
-      <change afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_66_构建乘积数组/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="乘积数组">
+      <change beforePath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_66_构建乘积数组/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_66_构建乘积数组/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode_JianzhiOffer/Test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode_JianzhiOffer/Test/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +209,7 @@
       <workItem from="1601723265512" duration="8079000" />
       <workItem from="1601732940069" duration="28000" />
       <workItem from="1601773757092" duration="5104000" />
-      <workItem from="1601795372074" duration="9371000" />
+      <workItem from="1601795372074" duration="9709000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1598187688773</created>
@@ -463,7 +463,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601800475003</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="乘积数组">
+      <created>1601809949279</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1601809949279</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -507,7 +514,8 @@
     <MESSAGE value="找到出现1次的数字" />
     <MESSAGE value="找到出现1次的数字1" />
     <MESSAGE value="和为s" />
-    <option name="LAST_COMMIT_MESSAGE" value="和为s" />
+    <MESSAGE value="乘积数组" />
+    <option name="LAST_COMMIT_MESSAGE" value="乘积数组" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2568" y="368" key="#Notifications" timestamp="1597722229298">
@@ -535,31 +543,31 @@
     </state>
     <state x="2660" y="298" key="FileChooserDialogImpl/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599743581299" />
     <state x="740" y="298" key="FileChooserDialogImpl/0.0.1920.1170@0.0.1920.1170" timestamp="1598517500758" />
-    <state width="1493" height="184" key="GridCell.Tab.0.bottom" timestamp="1601802317799">
+    <state width="1493" height="65" key="GridCell.Tab.0.bottom" timestamp="1601809914914">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="184" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1601802317799" />
+    <state width="1493" height="65" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1601809914914" />
     <state width="1867" height="233" key="GridCell.Tab.0.bottom/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1600305695515" />
     <state width="1867" height="390" key="GridCell.Tab.0.bottom/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1600577915321" />
     <state width="1867" height="367" key="GridCell.Tab.0.bottom/0.0.1920.1170@0.0.1920.1170" timestamp="1600585956823" />
-    <state width="1493" height="184" key="GridCell.Tab.0.center" timestamp="1601802317799">
+    <state width="1493" height="65" key="GridCell.Tab.0.center" timestamp="1601809914914">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="184" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1601802317799" />
+    <state width="1493" height="65" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1601809914914" />
     <state width="1867" height="233" key="GridCell.Tab.0.center/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1600305695515" />
     <state width="1867" height="390" key="GridCell.Tab.0.center/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1600577915321" />
     <state width="1867" height="367" key="GridCell.Tab.0.center/0.0.1920.1170@0.0.1920.1170" timestamp="1600585956823" />
-    <state width="1493" height="184" key="GridCell.Tab.0.left" timestamp="1601802317798">
+    <state width="1493" height="65" key="GridCell.Tab.0.left" timestamp="1601809914914">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="184" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1601802317798" />
+    <state width="1493" height="65" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1601809914914" />
     <state width="1867" height="233" key="GridCell.Tab.0.left/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1600305695515" />
     <state width="1867" height="390" key="GridCell.Tab.0.left/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1600577915321" />
     <state width="1867" height="367" key="GridCell.Tab.0.left/0.0.1920.1170@0.0.1920.1170" timestamp="1600585956823" />
-    <state width="1493" height="184" key="GridCell.Tab.0.right" timestamp="1601802317799">
+    <state width="1493" height="65" key="GridCell.Tab.0.right" timestamp="1601809914914">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="184" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1601802317799" />
+    <state width="1493" height="65" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1601809914914" />
     <state width="1867" height="233" key="GridCell.Tab.0.right/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1600305695515" />
     <state width="1867" height="390" key="GridCell.Tab.0.right/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1600577915321" />
     <state width="1867" height="367" key="GridCell.Tab.0.right/0.0.1920.1170@0.0.1920.1170" timestamp="1600585956823" />

@@ -19,9 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="翻转单词顺序">
-      <change afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_47_礼物的最大价值/Solution.java" afterDir="false" />
+    <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="礼物最大价值">
+      <change afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_57_1_和为s的两个数字/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_57_2_和为s的连续正数序列/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_57_和为s的两个数字/Solution.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +210,7 @@
       <workItem from="1601732940069" duration="28000" />
       <workItem from="1601773757092" duration="5104000" />
       <workItem from="1601795372074" duration="16684000" />
-      <workItem from="1601856372384" duration="8288000" />
+      <workItem from="1601856372384" duration="9692000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1598187688773</created>
@@ -518,7 +520,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601865694122</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="礼物最大价值">
+      <created>1601879068384</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1601879068384</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,7 +547,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="majorK-2" />
     <MESSAGE value="两个队列实现栈" />
     <MESSAGE value="两个栈实现队列" />
     <MESSAGE value="反转单向链表" />
@@ -563,7 +571,8 @@
     <MESSAGE value="多做几个" />
     <MESSAGE value="左旋转字符串" />
     <MESSAGE value="翻转单词顺序" />
-    <option name="LAST_COMMIT_MESSAGE" value="翻转单词顺序" />
+    <MESSAGE value="礼物最大价值" />
+    <option name="LAST_COMMIT_MESSAGE" value="礼物最大价值" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2568" y="368" key="#Notifications" timestamp="1597722229298">
@@ -658,10 +667,10 @@
     <state x="344" y="112" key="SettingsEditor/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1597734912894" />
     <state x="2264" y="112" key="SettingsEditor/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599719906884" />
     <state x="370" y="95" key="SettingsEditor/0.0.1920.1170@0.0.1920.1170" timestamp="1599292316827" />
-    <state x="442" y="227" key="Vcs.Push.Dialog.v2" timestamp="1601865709173">
+    <state x="442" y="227" key="Vcs.Push.Dialog.v2" timestamp="1601879121655">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="442" y="227" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1601865709173" />
+    <state x="442" y="227" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1601879121655" />
     <state x="552" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1600312282241" />
     <state x="2472" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1600562515379" />
     <state x="552" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170@0.0.1920.1170" timestamp="1600732093916" />
@@ -716,11 +725,6 @@
           <url>file://$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_59_1_滑动窗口的最大值/Solution.java</url>
           <line>19</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_47_礼物的最大价值/Solution.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,17 +1,17 @@
 package _53_1_在排序数组中查找数字;
-
-import java.util.LinkedHashMap;
-import java.util.Map;
+// 最好用二分法做，因为是排序数组
 
 public class Solution {
-    public int search(int[] nums, int target) {
-        Map<Integer, Integer> map = new LinkedHashMap<>();
+    public static int search(int[] nums, int target) {
+        int n = 0;
         for (int num : nums) {
-            int flag = map.containsKey(num) ? 1 : 0;
-            map.put(num, map.get(num) + flag);
+            if (num == target)  n++;
         }
+        return n;
+    }
 
-        int res = map.get(target);
-        return res;
+    public static void main(String[] args) {
+        int[] arr = {5, 7, 7, 8 ,8 , 10};
+        System.out.println(search(arr, 8));
     }
 }

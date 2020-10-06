@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="二叉树第k大，中序遍历或其倒序">
-      <change afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_55_1_二叉树的深度/Solution.java" afterDir="false" />
+    <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="二叉树的深度">
+      <change afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_55_2_平衡二叉树/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_55_2_平衡二叉树/Solution1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -210,14 +211,7 @@
       <workItem from="1601795372074" duration="16684000" />
       <workItem from="1601856372384" duration="19380000" />
       <workItem from="1601942875544" duration="7730000" />
-      <workItem from="1601970350714" duration="4109000" />
-    </task>
-    <task id="LOCAL-00004" summary="二分查找">
-      <created>1599561221492</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1599561221492</updated>
+      <workItem from="1601970350714" duration="7869000" />
     </task>
     <task id="LOCAL-00005" summary="k">
       <created>1599572941921</created>
@@ -555,7 +549,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601971377447</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="二叉树的深度">
+      <created>1601974536717</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1601974536717</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -575,7 +576,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="前序遍历、中序遍历、后序遍历这个方法太牛逼了。。。。力扣颜色标记法题解下的某个Java实现的评论。" />
     <MESSAGE value="Main" />
     <MESSAGE value="二叉树" />
     <MESSAGE value="hw" />
@@ -600,7 +600,8 @@
     <MESSAGE value="对称二叉树" />
     <MESSAGE value="二叉树最近公共祖先" />
     <MESSAGE value="二叉树第k大，中序遍历或其倒序" />
-    <option name="LAST_COMMIT_MESSAGE" value="二叉树第k大，中序遍历或其倒序" />
+    <MESSAGE value="二叉树的深度" />
+    <option name="LAST_COMMIT_MESSAGE" value="二叉树的深度" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2568" y="368" key="#Notifications" timestamp="1597722229298">
@@ -699,10 +700,10 @@
     <state x="344" y="112" key="SettingsEditor/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1597734912894" />
     <state x="2264" y="112" key="SettingsEditor/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599719906884" />
     <state x="370" y="95" key="SettingsEditor/0.0.1920.1170@0.0.1920.1170" timestamp="1599292316827" />
-    <state x="442" y="227" key="Vcs.Push.Dialog.v2" timestamp="1601971380323">
+    <state x="442" y="227" key="Vcs.Push.Dialog.v2" timestamp="1601974562177">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="442" y="227" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1601971380323" />
+    <state x="442" y="227" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1601974562177" />
     <state x="552" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1600312282241" />
     <state x="2472" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1600562515379" />
     <state x="552" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170@0.0.1920.1170" timestamp="1600732093916" />

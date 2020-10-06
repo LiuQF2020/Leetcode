@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="平衡二叉树">
-      <change afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_30_包含min函数的栈/MinStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode_Problems/src/_19_删除链表的倒数第N个节点/Solution.java" afterDir="false" />
+    <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="_19_删除链表的倒数第N个节点">
+      <change afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_16_数值的整数次方/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -211,14 +210,7 @@
       <workItem from="1601795372074" duration="16684000" />
       <workItem from="1601856372384" duration="19380000" />
       <workItem from="1601942875544" duration="7730000" />
-      <workItem from="1601970350714" duration="10985000" />
-    </task>
-    <task id="LOCAL-00006" summary="majorK">
-      <created>1599612486853</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1599612486853</updated>
+      <workItem from="1601970350714" duration="12416000" />
     </task>
     <task id="LOCAL-00007" summary="两个队列实现栈">
       <created>1599638357981</created>
@@ -556,7 +548,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601983852622</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="_19_删除链表的倒数第N个节点">
+      <created>1601988211770</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1601988211770</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -576,7 +575,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="二叉树" />
     <MESSAGE value="hw" />
     <MESSAGE value="无返回值的层序遍历" />
     <MESSAGE value="回文" />
@@ -601,7 +599,8 @@
     <MESSAGE value="二叉树第k大，中序遍历或其倒序" />
     <MESSAGE value="二叉树的深度" />
     <MESSAGE value="平衡二叉树" />
-    <option name="LAST_COMMIT_MESSAGE" value="平衡二叉树" />
+    <MESSAGE value="_19_删除链表的倒数第N个节点" />
+    <option name="LAST_COMMIT_MESSAGE" value="_19_删除链表的倒数第N个节点" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2568" y="368" key="#Notifications" timestamp="1597722229298">
@@ -700,10 +699,10 @@
     <state x="344" y="112" key="SettingsEditor/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1597734912894" />
     <state x="2264" y="112" key="SettingsEditor/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599719906884" />
     <state x="370" y="95" key="SettingsEditor/0.0.1920.1170@0.0.1920.1170" timestamp="1599292316827" />
-    <state x="442" y="227" key="Vcs.Push.Dialog.v2" timestamp="1601983853792">
+    <state x="442" y="227" key="Vcs.Push.Dialog.v2" timestamp="1601988226590">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="442" y="227" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1601983853792" />
+    <state x="442" y="227" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1601988226590" />
     <state x="552" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1600312282241" />
     <state x="2472" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1600562515379" />
     <state x="552" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170@0.0.1920.1170" timestamp="1600732093916" />

@@ -19,12 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="剪绳子2">
-      <change afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_27_二叉树的镜像/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_28_对称的二叉树/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_48_最长不含重复字符串的子串/Solution.java" afterDir="false" />
+    <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="对称二叉树">
+      <change afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_68_2_二叉树的最近公共祖先/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_48_最长不含重复字符串得子串/Solution.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +211,7 @@
       <workItem from="1601773757092" duration="5104000" />
       <workItem from="1601795372074" duration="16684000" />
       <workItem from="1601856372384" duration="19380000" />
-      <workItem from="1601942875544" duration="2802000" />
+      <workItem from="1601942875544" duration="6351000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1598187688773</created>
@@ -552,7 +549,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601894369968</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="对称二叉树">
+      <created>1601948114437</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1601948114437</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -572,7 +576,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="反转单向链表理解" />
     <MESSAGE value="反转双向链表未理解" />
     <MESSAGE value="合并链表" />
     <MESSAGE value="前序遍历、中序遍历、后序遍历这个方法太牛逼了。。。。力扣颜色标记法题解下的某个Java实现的评论。" />
@@ -597,7 +600,8 @@
     <MESSAGE value="和为s的整数序列" />
     <MESSAGE value="排序数组中查找数字的个数" />
     <MESSAGE value="剪绳子2" />
-    <option name="LAST_COMMIT_MESSAGE" value="剪绳子2" />
+    <MESSAGE value="对称二叉树" />
+    <option name="LAST_COMMIT_MESSAGE" value="对称二叉树" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2568" y="368" key="#Notifications" timestamp="1597722229298">
@@ -696,10 +700,10 @@
     <state x="344" y="112" key="SettingsEditor/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1597734912894" />
     <state x="2264" y="112" key="SettingsEditor/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599719906884" />
     <state x="370" y="95" key="SettingsEditor/0.0.1920.1170@0.0.1920.1170" timestamp="1599292316827" />
-    <state x="442" y="227" key="Vcs.Push.Dialog.v2" timestamp="1601894374795">
+    <state x="442" y="227" key="Vcs.Push.Dialog.v2" timestamp="1601948118915">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="442" y="227" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1601894374795" />
+    <state x="442" y="227" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1601948118915" />
     <state x="552" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1600312282241" />
     <state x="2472" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1600562515379" />
     <state x="552" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170@0.0.1920.1170" timestamp="1600732093916" />

@@ -1,4 +1,4 @@
-package _35_搜索插入位置;
+package _0035_搜索插入位置;
 
 public class Solution {
     public static int searchInsert(int[] nums, int target) {

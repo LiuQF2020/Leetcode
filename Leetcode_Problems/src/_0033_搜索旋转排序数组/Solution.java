@@ -1,4 +1,4 @@
-package _33_搜索旋转排序数组;
+package _0033_搜索旋转排序数组;
 
 public class Solution {
     public int search(int[] nums, int target) {

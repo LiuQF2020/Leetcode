@@ -1,4 +1,4 @@
-package _48_最长不含重复字符串得子串;
+package _48_最长不含重复字符串的子串;
 /*
  * 请从字符串中找出一个最长的不包含重复字符的子字符串，计算该最长子字符串的长度。
  * https://leetcode-cn.com/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof/

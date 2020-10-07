@@ -4,11 +4,12 @@ package _63_股票的最大利润;
 
 public class Solution {
     public int maxProfit(int[] prices) {
-        int cost = Integer.MAX_VALUE, profit = 0;
+        int cost = Integer.MAX_VALUE;
+        int income = 0;
         for (int price : prices) {
-            cost = Math.min(cost, price);  // 买价：今日买价，与往日最低价相比的最小值；
-            profit = Math.max(profit, price - cost);  // 利润：往日最大利润，与今日出售的利润对比，最大值；
+            cost = Math.min(cost, price);
+            income = Math.max(income, price - cost);
         }
-        return profit;
+        return income;
     }
 }

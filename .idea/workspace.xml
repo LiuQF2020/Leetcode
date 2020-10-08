@@ -19,7 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="daily">
+    <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="环形链表">
+      <change afterPath="$PROJECT_DIR$/Leetcode_Problems/src/_0142_环形链表2/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -210,13 +211,6 @@
       <workItem from="1601856372384" duration="19380000" />
       <workItem from="1601942875544" duration="7730000" />
       <workItem from="1601970350714" duration="12416000" />
-    </task>
-    <task id="LOCAL-00008" summary="两个队列实现栈">
-      <created>1599652796191</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1599652796191</updated>
     </task>
     <task id="LOCAL-00009" summary="两个队列实现栈">
       <created>1599652836151</created>
@@ -554,7 +548,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602036562736</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="环形链表">
+      <created>1602118164249</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1602118164249</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -574,7 +575,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="无返回值的层序遍历" />
     <MESSAGE value="回文" />
     <MESSAGE value="1" />
     <MESSAGE value="无重复最长子串" />
@@ -599,7 +599,8 @@
     <MESSAGE value="平衡二叉树" />
     <MESSAGE value="_19_删除链表的倒数第N个节点" />
     <MESSAGE value="daily" />
-    <option name="LAST_COMMIT_MESSAGE" value="daily" />
+    <MESSAGE value="环形链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="环形链表" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2568" y="368" key="#Notifications" timestamp="1597722229298">
@@ -702,12 +703,12 @@
     <state x="344" y="112" key="SettingsEditor/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1597734912894" />
     <state x="2264" y="112" key="SettingsEditor/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599719906884" />
     <state x="370" y="95" key="SettingsEditor/0.0.1920.1170@0.0.1920.1170" timestamp="1599292316827" />
-    <state x="552" y="318" key="Vcs.Push.Dialog.v2" timestamp="1602036575888">
-      <screen x="0" y="0" width="1920" height="1170" />
+    <state x="2472" y="318" key="Vcs.Push.Dialog.v2" timestamp="1602118166868">
+      <screen x="1920" y="0" width="1920" height="1170" />
     </state>
     <state x="442" y="227" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1601988226590" />
     <state x="552" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1600312282241" />
-    <state x="2472" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1600562515379" />
+    <state x="2472" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1602118166868" />
     <state x="552" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170@0.0.1920.1170" timestamp="1602036575888" />
     <state x="807" y="394" width="517" height="381" key="cloudConfig.SelfSettingsDialog" timestamp="1602036623099">
       <screen x="0" y="0" width="1920" height="1170" />

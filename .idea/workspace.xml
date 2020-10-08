@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="栈的压入弹出">
-      <change afterPath="$PROJECT_DIR$/Leetcode_JianzhiOffer/src/_38_字符串的排列/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode_Problems/src/_0114_二叉树展开为链表/Solution.java" afterDir="false" />
+    <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="daily">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,20 +73,99 @@
       <recent name="F:\Learn\Coding\Structure_Algorithm\codes\Leetcode\Scratch_Code\src\_02_数组问题\_2_找出数组中出现次数大于数组长度NofK的数" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Solution (4)">
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_47_礼物的最大价值.Solution" />
+      <module name="Leetcode_JianzhiOffer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_47_礼物的最大价值.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_14_2_剪绳子.Solution" />
+      <module name="Leetcode_JianzhiOffer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_14_2_剪绳子.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.Solution" />
+      <module name="Leetcode_JianzhiOffer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_58_2_左旋转字符串.Solution" />
+      <module name="Leetcode_JianzhiOffer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_58_2_左旋转字符串.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_53_1_在排序数组中查找数字.Solution" />
+      <module name="Leetcode_JianzhiOffer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_53_1_在排序数组中查找数字.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Solution (5)" />
+      <item itemvalue="Application.Solution (2)" />
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Solution (3)" />
+      <item itemvalue="Application.Solution (4)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Solution (4)" />
+        <item itemvalue="Application.Solution (3)" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Solution (2)" />
+        <item itemvalue="Application.Solution (5)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -133,8 +210,6 @@
       <workItem from="1601856372384" duration="19380000" />
       <workItem from="1601942875544" duration="7730000" />
       <workItem from="1601970350714" duration="12416000" />
-      <workItem from="1602061344024" duration="229000" />
-      <workItem from="1602061681936" duration="3740000" />
     </task>
     <task id="LOCAL-00008" summary="两个队列实现栈">
       <created>1599652796191</created>
@@ -472,28 +547,18 @@
       <option name="project" value="LOCAL" />
       <updated>1601988211770</updated>
     </task>
-    <task id="LOCAL-00056" summary="栈的压入弹出">
-      <created>1602070376104</created>
+    <task id="LOCAL-00056" summary="daily">
+      <created>1602036562735</created>
       <option name="number" value="00056" />
       <option name="presentableId" value="LOCAL-00056" />
       <option name="project" value="LOCAL" />
-      <updated>1602070376104</updated>
+      <updated>1602036562736</updated>
     </task>
     <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ORDER">
-      <list>
-        <option value="0" />
-        <option value="2" />
-        <option value="3" />
-        <option value="1" />
-      </list>
-    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -533,8 +598,8 @@
     <MESSAGE value="二叉树的深度" />
     <MESSAGE value="平衡二叉树" />
     <MESSAGE value="_19_删除链表的倒数第N个节点" />
-    <MESSAGE value="栈的压入弹出" />
-    <option name="LAST_COMMIT_MESSAGE" value="栈的压入弹出" />
+    <MESSAGE value="daily" />
+    <option name="LAST_COMMIT_MESSAGE" value="daily" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2568" y="368" key="#Notifications" timestamp="1597722229298">
@@ -545,10 +610,6 @@
       <screen x="1920" y="0" width="1920" height="1170" />
     </state>
     <state x="2635" y="323" key="#Web_Browsers/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597735113375" />
-    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602061156248">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1602061156248" />
     <state x="718" y="224" key="#com.intellij.ide.util.MemberChooser" timestamp="1600083093292">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
@@ -618,6 +679,10 @@
     <state width="1493" height="254" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1601954875690" />
     <state width="1867" height="367" key="GridCell.Tab.1.right/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1600571372697" />
     <state width="1867" height="367" key="GridCell.Tab.1.right/0.0.1920.1170@0.0.1920.1170" timestamp="1600585956823" />
+    <state x="437" y="266" key="IDE.errors.dialog" timestamp="1602036593571">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="437" y="266" key="IDE.errors.dialog/0.0.1920.1170@0.0.1920.1170" timestamp="1602036593571" />
     <state x="147" y="66" key="MergeDialog" timestamp="1601706455957">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -637,18 +702,23 @@
     <state x="344" y="112" key="SettingsEditor/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1597734912894" />
     <state x="2264" y="112" key="SettingsEditor/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599719906884" />
     <state x="370" y="95" key="SettingsEditor/0.0.1920.1170@0.0.1920.1170" timestamp="1599292316827" />
-    <state x="442" y="227" key="Vcs.Push.Dialog.v2" timestamp="1602070384496">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="552" y="318" key="Vcs.Push.Dialog.v2" timestamp="1602036575888">
+      <screen x="0" y="0" width="1920" height="1170" />
     </state>
-    <state x="442" y="227" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1602070384496" />
+    <state x="442" y="227" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1601988226590" />
     <state x="552" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1600312282241" />
     <state x="2472" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1600562515379" />
-    <state x="552" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170@0.0.1920.1170" timestamp="1600732093916" />
-    <state x="603" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602061241470">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="552" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170@0.0.1920.1170" timestamp="1602036575888" />
+    <state x="807" y="394" width="517" height="381" key="cloudConfig.SelfSettingsDialog" timestamp="1602036623099">
+      <screen x="0" y="0" width="1920" height="1170" />
     </state>
-    <state x="603" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1602061241470" />
+    <state x="807" y="394" width="517" height="381" key="cloudConfig.SelfSettingsDialog/0.0.1920.1170@0.0.1920.1170" timestamp="1602036623099" />
+    <state x="754" y="497" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602030329718">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="603" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1601799180713" />
     <state x="2674" y="497" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599656636639" />
+    <state x="754" y="497" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1170@0.0.1920.1170" timestamp="1602030329718" />
     <state x="311" y="146" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1601777700428">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

@@ -1,6 +1,10 @@
 package _0142_环形链表2;
 
 
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
 class ListNode {
     int val;
     ListNode next;
@@ -27,5 +31,16 @@ public class Solution {
             slow = slow.next;
         }
         return slow;
+    }
+
+    public ListNode detectCycleRecur(ListNode head) {
+        Set<ListNode> set = new HashSet<>();
+        ListNode cur = head;
+        while (cur != null) {
+            set.add(cur);
+            cur = cur.next;
+            if (set.contains(cur))  return cur;
+        }
+        return null;
     }
 }

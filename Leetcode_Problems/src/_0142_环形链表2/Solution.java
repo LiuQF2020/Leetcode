@@ -1,9 +1,7 @@
 package _0142_环形链表2;
 
 
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 class ListNode {
     int val;

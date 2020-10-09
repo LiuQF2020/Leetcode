@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="环形链表，得学一下公式">
-      <change beforePath="$PROJECT_DIR$/Leetcode_Problems/src/_0142_环形链表2/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode_Problems/src/_0142_环形链表2/Solution.java" afterDir="false" />
+    <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="set实现返回链表环入口节点">
+      <change afterPath="$PROJECT_DIR$/Leetcode_Problems/src/_0094_二叉树的中序遍历/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,13 +140,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -210,20 +213,7 @@
       <workItem from="1601856372384" duration="19380000" />
       <workItem from="1601942875544" duration="7730000" />
       <workItem from="1601970350714" duration="12416000" />
-    </task>
-    <task id="LOCAL-00010" summary="两个队列实现栈">
-      <created>1599653509637</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1599653509637</updated>
-    </task>
-    <task id="LOCAL-00011" summary="两个栈实现队列">
-      <created>1599655557559</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1599655557559</updated>
+      <workItem from="1602202587882" duration="3120000" />
     </task>
     <task id="LOCAL-00012" summary="反转单向链表">
       <created>1599656592403</created>
@@ -554,7 +544,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602119664873</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="set实现返回链表环入口节点">
+      <created>1602120077138</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1602120077138</updated>
+    </task>
+    <task id="LOCAL-00060" summary="set实现返回链表环入口节点">
+      <created>1602120276142</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1602120276142</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -574,7 +578,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="1" />
     <MESSAGE value="无重复最长子串" />
     <MESSAGE value="找到出现1次的数字" />
     <MESSAGE value="找到出现1次的数字1" />
@@ -599,7 +602,8 @@
     <MESSAGE value="daily" />
     <MESSAGE value="环形链表" />
     <MESSAGE value="环形链表，得学一下公式" />
-    <option name="LAST_COMMIT_MESSAGE" value="环形链表，得学一下公式" />
+    <MESSAGE value="set实现返回链表环入口节点" />
+    <option name="LAST_COMMIT_MESSAGE" value="set实现返回链表环入口节点" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2568" y="368" key="#Notifications" timestamp="1597722229298">
@@ -702,12 +706,12 @@
     <state x="344" y="112" key="SettingsEditor/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1597734912894" />
     <state x="2264" y="112" key="SettingsEditor/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1599719906884" />
     <state x="370" y="95" key="SettingsEditor/0.0.1920.1170@0.0.1920.1170" timestamp="1599292316827" />
-    <state x="2472" y="318" key="Vcs.Push.Dialog.v2" timestamp="1602119689068">
+    <state x="2472" y="318" key="Vcs.Push.Dialog.v2" timestamp="1602120283388">
       <screen x="1920" y="0" width="1920" height="1170" />
     </state>
     <state x="442" y="227" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1601988226590" />
     <state x="552" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170/1920.0.1920.1170@0.0.1920.1170" timestamp="1600312282241" />
-    <state x="2472" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1602119689068" />
+    <state x="2472" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1602120283388" />
     <state x="552" y="318" key="Vcs.Push.Dialog.v2/0.0.1920.1170@0.0.1920.1170" timestamp="1602036575888" />
     <state x="807" y="394" width="517" height="381" key="cloudConfig.SelfSettingsDialog" timestamp="1602036623099">
       <screen x="0" y="0" width="1920" height="1170" />
@@ -737,6 +741,10 @@
       <screen x="1920" y="0" width="1920" height="1170" />
     </state>
     <state x="2597" y="150" width="781" height="629" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1170/1920.0.1920.1170@1920.0.1920.1170" timestamp="1597722728965" />
+    <state x="655" y="341" key="refactoring.ChangeSignatureDialog" timestamp="1602205474607">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="655" y="341" key="refactoring.ChangeSignatureDialog/0.0.1920.1170@0.0.1920.1170" timestamp="1602205474607" />
     <state x="426" y="192" width="672" height="738" key="run.anything.popup" timestamp="1601778189180">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

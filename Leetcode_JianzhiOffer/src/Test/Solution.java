@@ -1,14 +1,19 @@
 package Test;
-
 public class Solution {
-    public static long factorial(int n){
-        if (n == 1 || n == 0)  return 1;
 
-        return n * factorial(n - 1) + 1;
+    public int getSqrt(int num) {
+        long left = 0;
+        long right = num / 2 + 1;
+        while (left < right) {
+            long mid = (left + right + 1) >>> 1;
+            long square = mid * mid;
+            if (square > num) {
+                right = mid - 1;
+            } else {
+                left = mid;
+            }
+        }
+        return (int) left;
     }
 
-    public static void main(String[] args) {
-        long res = factorial(4);
-        System.out.println(res);
-    }
 }

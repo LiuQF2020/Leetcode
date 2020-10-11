@@ -22,5 +22,7 @@ package _13_机器人的运动范围;
  */
 
 public class Solution {
-
+    public int movingCount(int m, int n, int k) {
+        return 1;
+    }
 }

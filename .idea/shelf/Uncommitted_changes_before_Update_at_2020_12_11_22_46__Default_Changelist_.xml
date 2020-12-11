@@ -1,0 +1,24 @@
+<changelist name="Uncommitted_changes_before_Update_at_2020_12_11_22_46_[Default_Changelist]" date="1607698001150" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_12_11_22_46_[Default_Changelist]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 2020/12/11 22:46 [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode_JianzhiOffer/_13_机器人的运动范围/Solution.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode_JianzhiOffer/_13_机器人的运动范围/Solution.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_12_11_22_46_[Default_Changelist]/Solution.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode_JianzhiOffer/_43_1到n整数中1出现的次数/Solution.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode_JianzhiOffer/_43_1到n整数中1出现的次数/Solution.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_12_11_22_46_[Default_Changelist]/Solution1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode_JianzhiOffer/Test/Main.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode_JianzhiOffer/Test/Main.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_12_11_22_46_[Default_Changelist]/Main.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode_JianzhiOffer/Test/Solution.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode_JianzhiOffer/Test/Solution.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_12_11_22_46_[Default_Changelist]/Solution2.class" />
+  </binary>
+</changelist>

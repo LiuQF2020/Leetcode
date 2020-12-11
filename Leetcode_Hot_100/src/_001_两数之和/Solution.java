@@ -1,6 +1,8 @@
 package _001_两数之和;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * 1. 两数之和
@@ -32,11 +34,14 @@ public class Solution {
         return arr_ans;
     }
 
-
-    public static void main(String[] args) {
-        int[]  nums_n = {2, 6, 0, 7};
-
-        int[] arr_num = twoSum(nums_n, 6);
-        System.out.println("arr " + Arrays.toString(arr_num));
+    public static int[] twoSum1(int[] nums, int target) {
+        Map<Integer, Integer> hashmap = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            if (hashmap.containsKey(target - nums[i])) {
+                return new int[] {hashmap.get(target - nums[i]), i};
+            }
+            hashmap.put(nums[i], i);
+        }
+        return new int[0];
     }
 }

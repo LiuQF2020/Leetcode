@@ -20,8 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e13ec9dd-edfe-4c9a-b6fd-23fb99df85d8" name="Default Changelist" comment="1">
-      <change afterPath="$PROJECT_DIR$/Leetcode_Hot_100/src/_031_下一个排列/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode_Hot_100/src/_034_在排序数组中查找元素的第一个和最后一个位置/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode_Hot_100/src/_160_相交链表/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_12_10_17_17_[Default_Changelist]/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_12_10_17_17_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_12_10_17_17__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode_Hot_100/src/_031_下一个排列/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode_Hot_100/src/_031_下一个排列/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode_Hot_100/_001_两数之和/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode_Hot_100/_001_两数之和/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode_Hot_100/_647_回文子串/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode_Hot_100/_647_回文子串/Solution.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,19 +147,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution" />
@@ -213,13 +207,15 @@
       <workItem from="1601856372384" duration="19380000" />
       <workItem from="1601942875544" duration="7730000" />
       <workItem from="1601970350714" duration="12416000" />
-    </task>
-    <task id="LOCAL-00012" summary="反转单向链表">
-      <created>1599656592403</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1599656592403</updated>
+      <workItem from="1608254345501" duration="1052000" />
+      <workItem from="1608533459269" duration="3578000" />
+      <workItem from="1608704567923" duration="598000" />
+      <workItem from="1608878376826" duration="1570000" />
+      <workItem from="1609137645818" duration="2844000" />
+      <workItem from="1609234747671" duration="1631000" />
+      <workItem from="1609750414042" duration="5191000" />
+      <workItem from="1609834926345" duration="2389000" />
+      <workItem from="1611920728727" duration="86000" />
     </task>
     <task id="LOCAL-00013" summary="反转单向链表理解">
       <created>1599656991096</created>
@@ -557,7 +553,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608106976974</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="1">
+      <created>1608112570109</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1608112570109</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -626,21 +629,6 @@
           <url>file://$PROJECT_DIR$/Leetcode_JianzhiOffer/src/Test/Solution.java</url>
           <line>18</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Leetcode_Hot_100/src/_031_下一个排列/Solution.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Leetcode_Hot_100/src/_031_下一个排列/Solution.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Leetcode_Hot_100/src/_031_下一个排列/Solution.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
